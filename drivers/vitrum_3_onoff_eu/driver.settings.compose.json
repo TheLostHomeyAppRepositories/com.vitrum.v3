@@ -1,0 +1,171 @@
+[
+  {
+    "id": "16",
+    "value": false,
+    "label": {
+      "en": "Switch Mode"
+    },
+    "hint": {
+      "en": "Set control mode:0 dim mode,1 switch mode"
+    },
+    "zwave": {
+      "index": 16,
+      "size": 1
+    },
+    "type": "checkbox"
+  },
+  {
+    "id": "19",
+    "value": false,
+    "label": {
+      "en": "Alternate Exclusion"
+    },
+    "hint": {
+      "en": "Alternative way to perform Exclusion"
+    },
+    "zwave": {
+      "index": 19,
+      "size": 1
+    },
+    "type": "checkbox"
+  },
+  {
+    "id": "3",
+    "value": "0",
+    "label": {
+      "en": "LED Light"
+    },
+    "hint": {
+      "en": "Set the LED light status"
+    },
+    "zwave": {
+      "index": 3,
+      "size": 1
+    },
+    "values": [
+      {
+        "id": "0",
+        "label": {
+          "en": "LED On when load is On, LED Off when load is Off (Default)"
+        }
+      },
+      {
+        "id": "1",
+        "label": {
+          "en": "LED ON when load is Off, LED Off when Load is On"
+        }
+      },
+      {
+        "id": "2",
+        "label": {
+          "en": "LED always ON"
+        }
+      },
+      {
+        "id": "3",
+        "label": {
+          "en": "LED always OFF"
+        }
+      }
+    ],
+    "type": "dropdown"
+  },
+  {
+    "id": "30",
+    "value": 1,
+    "label": {
+      "en": "Minimum Dim Threshold"
+    },
+    "hint": {
+      "en": "Minimum Dim Threshold"
+    },
+    "zwave": {
+      "index": 30,
+      "size": 1
+    },
+    "attr": {
+      "min": 1,
+      "max": 99
+    },
+    "type": "number"
+  },
+  {
+    "id": "31",
+    "value": 99,
+    "label": {
+      "en": "Maximum Dim Threshold"
+    },
+    "hint": {
+      "en": "Maximum Dim Threshold"
+    },
+    "zwave": {
+      "index": 31,
+      "size": 1
+    },
+    "attr": {
+      "min": 1,
+      "max": 99
+    },
+    "type": "number"
+  },
+  {
+    "id": "32",
+    "value": false,
+    "label": {
+      "en": "Brightness Level"
+    },
+    "hint": {
+      "en": "Dimmer will turn ON to this level"
+    },
+    "zwave": {
+      "index": 32,
+      "size": 1
+    },
+    "type": "checkbox"
+  },
+  {
+    "id": "4",
+    "value": false,
+    "label": {
+      "en": "Invert Switch"
+    },
+    "hint": {
+      "en": "Reverse the default On/Off rocker setting"
+    },
+    "zwave": {
+      "index": 4,
+      "size": 1
+    },
+    "type": "checkbox"
+  },
+  {
+    "id": "6",
+    "value": false,
+    "label": {
+      "en": "Dim up/down rate"
+    },
+    "hint": {
+      "en": "Enable/Disable slow dim rate"
+    },
+    "zwave": {
+      "index": 6,
+      "size": 1
+    },
+    "type": "checkbox"
+  },
+  {
+    "id": "84",
+    "value": false,
+    "label": {
+      "en": "Reset factory default"
+    },
+    "hint": {
+      "en": "Reset Switch to Factory Defaults"
+    },
+    "zwave": {
+      "index": 84,
+      "size": 1
+    },
+    "type": "checkbox"
+  }
+]

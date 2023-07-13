@@ -1,7 +1,0 @@
-{
-  "name": {
-    "en": "My Driver",
-    "nl": "Mijn Driver"
-  },
-  "$extends": ["defaults"]
-}
