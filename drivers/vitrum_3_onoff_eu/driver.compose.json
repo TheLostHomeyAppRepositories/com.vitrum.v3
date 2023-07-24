@@ -1,6 +1,6 @@
 {
   "name": {
-    "en": "vitrum_3_onoff_eu"
+    "en": "Vitrum 3 On-Off EU"
   },
   "class": "light",
   "capabilities": [],
@@ -17,8 +17,8 @@
   },
   "zwave": {
     "manufacturerId": 266,
-    "productTypeId": [ 4608, 4609, 12800, 16896 ],
-    "productId": [ 21248, 21249, 37632 ],
+    "productTypeId": [ 4608, 4609, 12800, 16896, 28818 ],
+    "productId": [ 21248, 21249, 37632, 3987 ],
     "learnmode": {
       "instruction": { "en": "Press left button to include. Hold the left button for 8 seconds to exclude" }
     },

@@ -353,7 +353,7 @@
     },
     {
       "name": {
-        "en": "vitrum_3_onoff_eu"
+        "en": "Vitrum 3 On-Off EU"
       },
       "class": "light",
       "capabilities": [],
@@ -374,12 +374,14 @@
           4608,
           4609,
           12800,
-          16896
+          16896,
+          28818
         ],
         "productId": [
           21248,
           21249,
-          37632
+          37632,
+          3987
         ],
         "learnmode": {
           "instruction": {

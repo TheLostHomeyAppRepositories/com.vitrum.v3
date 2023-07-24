@@ -1,21 +1,32 @@
 'use strict';
 
-const { Device } = require('homey');
+const Homey = require('homey');
+const { ZwaveDevice } = require('homey-zwavedriver');
 
-class MyDevice extends Device {
+
+class Vitrum3OnOffDevice extends ZwaveDevice {
 
   /**
    * onInit is called when the device is initialized.
    */
-  async onInit() {
-    this.log('MyDevice has been initialized');
+  async onNodeInit() {
+
+    this.registerCapability('onoff', 'BASIC');
+    this.registerReportListener('BASIC', 'BASIC_SET', ( rawReport, parsedReport ) => {
+      if(rawReport.Value == 0)
+        this.setCapabilityValue('onoff', false);
+      else
+        this.setCapabilityValue('onoff', true);
+    });
+
+    this.log('Vitrum3OnOffDevice has been initialized');
   }
 
   /**
    * onAdded is called when the user adds the device, called just after pairing.
    */
   async onAdded() {
-    this.log('MyDevice has been added');
+    this.log('Vitrum3OnOffDevice has been added');
   }
 
   /**
@@ -27,7 +38,7 @@ class MyDevice extends Device {
    * @returns {Promise<string|void>} return a custom message that will be displayed
    */
   async onSettings({ oldSettings, newSettings, changedKeys }) {
-    this.log('MyDevice settings where changed');
+    this.log('Vitrum3OnOffDevice settings where changed');
   }
 
   /**
@@ -36,16 +47,16 @@ class MyDevice extends Device {
    * @param {string} name The new name
    */
   async onRenamed(name) {
-    this.log('MyDevice was renamed');
+    this.log('Vitrum3OnOffDevice was renamed');
   }
 
   /**
    * onDeleted is called when the user deleted the device.
    */
   async onDeleted() {
-    this.log('MyDevice has been deleted');
+    this.log('Vitrum3OnOffDevice has been deleted');
   }
 
 }
 
-module.exports = MyDevice;
+module.exports = Vitrum3OnOffDevice;
