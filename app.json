@@ -29,7 +29,7 @@
   "drivers": [
     {
       "name": {
-        "en": "Vitrum 1 OnOff EU"
+        "en": "Vitrum 1 On/Off EU"
       },
       "class": "light",
       "capabilities": [],
@@ -50,21 +50,24 @@
           4608,
           4609,
           12800,
-          16896
+          16896,
+          28787
         ],
         "productId": [
           20992,
           20993,
-          37376
+          37376,
+          3956
         ],
         "learnmode": {
           "instruction": {
-            "en": "Press left button to include. Hold the left button for 8 seconds to exclude"
+            "en": "Press top button to include. Hold the left button for 8 seconds to exclude"
           }
         },
-        "associationGroups": [],
         "associationGroupsMultiChannel": [
-          1,
+          1
+        ],
+        "associationGroups": [
           2
         ],
         "multiChannelNodes": {
@@ -76,16 +79,6 @@
             "icon": "/drivers/vitrum_1_onoff_eu/assets/icon.svg",
             "name": {
               "en": "Switch 1"
-            }
-          },
-          "2": {
-            "class": "socket",
-            "capabilities": [
-              "onoff"
-            ],
-            "icon": "/drivers/vitrum_1_onoff_eu/assets/icon.svg",
-            "name": {
-              "en": "Switch 2"
             }
           }
         }
@@ -113,7 +106,7 @@
         },
         {
           "id": "2",
-          "value": 1,
+          "value": 0,
           "label": {
             "en": "RF report set"
           },
@@ -132,7 +125,7 @@
         },
         {
           "id": "3",
-          "value": 99,
+          "value": 0,
           "label": {
             "en": "Maximum level"
           },
@@ -170,7 +163,7 @@
         },
         {
           "id": "5",
-          "value": 2,
+          "value": 0,
           "label": {
             "en": "Basic duration set"
           },
@@ -191,7 +184,7 @@
     },
     {
       "name": {
-        "en": "Vitrum 2 OnOff EU"
+        "en": "Vitrum 2 On/Off EU"
       },
       "class": "light",
       "capabilities": [],
@@ -212,22 +205,26 @@
           4608,
           4609,
           12800,
-          16896
+          16896,
+          28806
         ],
         "productId": [
           20992,
           20993,
-          37376
+          37376,
+          3975
         ],
         "learnmode": {
           "instruction": {
-            "en": "Press left button to include. Hold the left button for 8 seconds to exclude"
+            "en": "Press top button to include. Hold the left button for 8 seconds to exclude"
           }
         },
-        "associationGroups": [],
         "associationGroupsMultiChannel": [
-          1,
-          2
+          1
+        ],
+        "associationGroups": [
+          2,
+          3
         ],
         "multiChannelNodes": {
           "1": {
@@ -275,7 +272,7 @@
         },
         {
           "id": "2",
-          "value": 1,
+          "value": 0,
           "label": {
             "en": "RF report set"
           },
@@ -294,7 +291,7 @@
         },
         {
           "id": "3",
-          "value": 99,
+          "value": 0,
           "label": {
             "en": "Maximum level"
           },
@@ -332,7 +329,7 @@
         },
         {
           "id": "5",
-          "value": 2,
+          "value": 0,
           "label": {
             "en": "Basic duration set"
           },
@@ -353,7 +350,7 @@
     },
     {
       "name": {
-        "en": "Vitrum 3 On-Off EU"
+        "en": "Vitrum 3 On/Off EU"
       },
       "class": "light",
       "capabilities": [],
@@ -385,14 +382,16 @@
         ],
         "learnmode": {
           "instruction": {
-            "en": "Press left button to include. Hold the left button for 8 seconds to exclude"
+            "en": "Press top button to include. Hold the left button for 8 seconds to exclude"
           }
         },
-        "associationGroups": [],
         "associationGroupsMultiChannel": [
-          1,
+          1
+        ],
+        "associationGroups": [
           2,
-          3
+          3,
+          4
         ],
         "multiChannelNodes": {
           "1": {

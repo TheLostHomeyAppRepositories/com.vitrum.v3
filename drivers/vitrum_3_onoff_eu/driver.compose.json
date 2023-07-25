@@ -1,6 +1,6 @@
 {
   "name": {
-    "en": "Vitrum 3 On-Off EU"
+    "en": "Vitrum 3 On/Off EU"
   },
   "class": "light",
   "capabilities": [],
@@ -20,10 +20,14 @@
     "productTypeId": [ 4608, 4609, 12800, 16896, 28818 ],
     "productId": [ 21248, 21249, 37632, 3987 ],
     "learnmode": {
-      "instruction": { "en": "Press left button to include. Hold the left button for 8 seconds to exclude" }
+      "instruction": { "en": "Press top button to include. Hold the left button for 8 seconds to exclude" }
     },
-    "associationGroups": [],
-    "associationGroupsMultiChannel": [ 1, 2, 3 ],
+    "associationGroupsMultiChannel": [ 1 ],
+    "associationGroups": [
+      2,
+      3,
+      4
+    ],
     "multiChannelNodes": {
       "1": {
         "class": "socket",
