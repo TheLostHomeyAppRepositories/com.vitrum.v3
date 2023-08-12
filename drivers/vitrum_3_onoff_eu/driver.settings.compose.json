@@ -220,7 +220,7 @@
     ]
   },
   {
-    "id": "off_btn_3_color",
+    "id": "on_btn_3_color",
     "type": "dropdown",
     "label": { "en": "On Button 3 Color" },
     "value": "3",
@@ -262,5 +262,65 @@
         "label": { "en": "White" }
       }
     ]
+  },
+  {
+    "id": "maxbrightness",
+    "type": "number",
+    "label": { "en": "Buttons Max. Brightness" },
+    "hint": {
+      "en": "This parameter ({{zwaveParameterIndex}}) configures maximum brightness when button is on"
+    },
+    "value": 100,
+    "zwave": {
+      "index": 206,
+      "size": 1
+    },
+    "attr": { "min": 5,"max": 100 },
+    "units": { "en": "value" }
+  },
+  {
+    "id": "minbrightness",
+    "type": "number",
+    "label": { "en": "Buttons Min. Brightness" },
+    "hint": {
+      "en": "This parameter ({{zwaveParameterIndex}}) configures minimum brightness when button is off"
+    },
+    "value": 5,
+    "zwave": {
+      "index": 206,
+      "size": 1
+    },
+    "attr": { "min": 0,"max": 100 },
+    "units": { "en": "value" }
+  },
+  {
+    "id": "buzzer",
+    "type": "checkbox",
+    "label": {
+      "en": "Buzzer"
+    },
+    "hint": {
+      "en": "This parameter ({{zwaveParameterIndex}}) configures if buzzer sound should be enabled for button press"
+    },
+    "zwave": {
+      "index": 209,
+      "size": 1
+    },
+    "value": true
+  },
+  {
+    "id": "frontendlock",
+    "type": "checkbox",
+    "label": {
+      "en": "Front-end Buttons lock"
+    },
+    "hint": {
+      "en": "This parameter ({{zwaveParameterIndex}}) configures if Front-end Buttons lock should be enabled for button press"
+    },
+    "zwave": {
+      "index": 218,
+      "size": 1
+    },
+    "value": true
   }
 ]
