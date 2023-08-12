@@ -498,112 +498,78 @@
       "id": "vitrum_3_onoff_eu",
       "settings": [
         {
-          "id": "7",
+          "id": "off_btn_1_color",
           "type": "dropdown",
           "value": "0",
           "label": {
             "en": "Off Button 1 Color"
           },
+          "zwave": {
+            "index": 7,
+            "size": 1
+          },
           "values": [
             {
               "id": "0",
               "label": {
                 "en": "Off"
-              },
-              "value": "0",
-              "zwave": {
-                "index": 7,
-                "size": 1,
-                "value": 0
               }
             },
             {
               "id": "1",
               "label": {
                 "en": "Red"
-              },
-              "value": "1",
-              "zwave": {
-                "index": 7,
-                "size": 1,
-                "value": 1
               }
             },
             {
               "id": "2",
               "label": {
                 "en": "Green"
-              },
-              "value": "2",
-              "zwave": {
-                "index": 7,
-                "size": 1
               }
             },
             {
               "id": "3",
               "label": {
                 "en": "Blue"
-              },
-              "value": "3",
-              "zwave": {
-                "index": 7,
-                "size": 1
               }
             },
             {
               "id": "4",
               "label": {
                 "en": "Yellow"
-              },
-              "value": "4",
-              "zwave": {
-                "index": 7,
-                "size": 1
               }
             },
             {
               "id": "5",
               "label": {
                 "en": "Magenta"
-              },
-              "value": "5",
-              "zwave": {
-                "index": 7,
-                "size": 1
               }
             },
             {
               "id": "6",
               "label": {
                 "en": "Cyan"
-              },
-              "value": "6",
-              "zwave": {
-                "index": 7,
-                "size": 1
               }
             },
             {
               "id": "7",
               "label": {
                 "en": "White"
-              },
-              "value": "7",
-              "zwave": {
-                "index": 7,
-                "size": 1
               }
             }
           ]
         },
         {
-          "id": "8",
+          "id": "off_btn_2_color",
           "type": "dropdown",
-          "value": "0",
           "label": {
             "en": "Off Button 2 Color"
           },
+          "value": "0",
+          "zwave": {
+            "index": 8,
+            "size": 1
+          },
           "values": [
             {
               "id": "0",
@@ -656,12 +622,16 @@
           ]
         },
         {
-          "id": "9",
+          "id": "off_btn_3_color",
           "type": "dropdown",
-          "value": "0",
           "label": {
             "en": "Off Button 3 Color"
           },
+          "value": "0",
+          "zwave": {
+            "index": 9,
+            "size": 1
+          },
           "values": [
             {
               "id": "0",
@@ -714,69 +684,15 @@
           ]
         },
         {
-          "id": "13",
+          "id": "on_btn_1_color",
           "type": "dropdown",
-          "value": "3",
           "label": {
             "en": "On Button 1 Color"
           },
-          "values": [
-            {
-              "id": "0",
-              "label": {
-                "en": "Off"
-              }
-            },
-            {
-              "id": "1",
-              "label": {
-                "en": "Red"
-              }
-            },
-            {
-              "id": "2",
-              "label": {
-                "en": "Green"
-              }
-            },
-            {
-              "id": "3",
-              "label": {
-                "en": "Blue"
-              }
-            },
-            {
-              "id": "4",
-              "label": {
-                "en": "Yellow"
-              }
-            },
-            {
-              "id": "5",
-              "label": {
-                "en": "Magenta"
-              }
-            },
-            {
-              "id": "6",
-              "label": {
-                "en": "Cyan"
-              }
-            },
-            {
-              "id": "7",
-              "label": {
-                "en": "White"
-              }
-            }
-          ]
-        },
-        {
-          "id": "14",
-          "type": "dropdown",
           "value": "3",
-          "label": {
-            "en": "On Button 2 Color"
+          "zwave": {
+            "index": 13,
+            "size": 1
           },
           "values": [
             {
@@ -830,11 +746,77 @@
           ]
         },
         {
-          "id": "15",
+          "id": "on_btn_2_color",
           "type": "dropdown",
+          "label": {
+            "en": "On Button 2 Color"
+          },
           "value": "3",
+          "zwave": {
+            "index": 14,
+            "size": 1
+          },
+          "values": [
+            {
+              "id": "0",
+              "label": {
+                "en": "Off"
+              }
+            },
+            {
+              "id": "1",
+              "label": {
+                "en": "Red"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Green"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Blue"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Yellow"
+              }
+            },
+            {
+              "id": "5",
+              "label": {
+                "en": "Magenta"
+              }
+            },
+            {
+              "id": "6",
+              "label": {
+                "en": "Cyan"
+              }
+            },
+            {
+              "id": "7",
+              "label": {
+                "en": "White"
+              }
+            }
+          ]
+        },
+        {
+          "id": "off_btn_3_color",
+          "type": "dropdown",
           "label": {
             "en": "On Button 3 Color"
+          },
+          "value": "3",
+          "zwave": {
+            "index": 15,
+            "size": 1
           },
           "values": [
             {
@@ -964,6 +946,48 @@
           "1": {
             "hint": {
               "en": "Lifeline report\r\nAdd Controller Node ID to the list of Node ID destinations belonging to the Lifeline Group, in order to let the controller receive Central Scene Notification report and  Device Reset Locally Notification reports.\r\n\r\nLifeline report with End Point information\r\nAdd both Controller Node ID and Controller End Point to the list of End Points belonging to the Lifeline Group, in order to let the controller receive Central Scene Notification report with the End Point source address information. That may be achieved by sending the Multichannel Association Set Command Class and filling “Multi Channel Node ID” field with the Controller Node ID and “End Point” field with the Controller End Point."
+            }
+          }
+        },
+        "multiChannelNodes": {
+          "1": {
+            "class": "socket",
+            "capabilities": [
+              "onoff"
+            ],
+            "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
+            "name": {
+              "en": "Switch 1"
+            }
+          },
+          "2": {
+            "class": "socket",
+            "capabilities": [
+              "onoff"
+            ],
+            "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
+            "name": {
+              "en": "Switch 2"
+            }
+          },
+          "3": {
+            "class": "socket",
+            "capabilities": [
+              "onoff"
+            ],
+            "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
+            "name": {
+              "en": "Switch 3"
+            }
+          },
+          "4": {
+            "class": "socket",
+            "capabilities": [
+              "onoff"
+            ],
+            "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
+            "name": {
+              "en": "Switch 4"
             }
           }
         }
@@ -1601,6 +1625,68 @@
           "1": {
             "hint": {
               "en": "Lifeline report\r\nAdd Controller Node ID to the list of Node ID destinations belonging to the Lifeline Group, in order to let the controller receive Central Scene Notification report and  Device Reset Locally Notification reports.\r\n\r\nLifeline report with End Point information\r\nAdd both Controller Node ID and Controller End Point to the list of End Points belonging to the Lifeline Group, in order to let the controller receive Central Scene Notification report with the End Point source address information. That may be achieved by sending the Multichannel Association Set Command Class and filling “Multi Channel Node ID” field with the Controller Node ID and “End Point” field with the Controller End Point."
+            }
+          }
+        },
+        "multiChannelNodes": {
+          "1": {
+            "class": "socket",
+            "capabilities": [
+              "onoff"
+            ],
+            "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
+            "name": {
+              "en": "Switch 1"
+            }
+          },
+          "2": {
+            "class": "socket",
+            "capabilities": [
+              "onoff"
+            ],
+            "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
+            "name": {
+              "en": "Switch 2"
+            }
+          },
+          "3": {
+            "class": "socket",
+            "capabilities": [
+              "onoff"
+            ],
+            "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
+            "name": {
+              "en": "Switch 3"
+            }
+          },
+          "4": {
+            "class": "socket",
+            "capabilities": [
+              "onoff"
+            ],
+            "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
+            "name": {
+              "en": "Switch 4"
+            }
+          },
+          "5": {
+            "class": "socket",
+            "capabilities": [
+              "onoff"
+            ],
+            "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
+            "name": {
+              "en": "Switch 5"
+            }
+          },
+          "6": {
+            "class": "socket",
+            "capabilities": [
+              "onoff"
+            ],
+            "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
+            "name": {
+              "en": "Switch 6"
             }
           }
         }

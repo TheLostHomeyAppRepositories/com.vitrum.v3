@@ -1,131 +1,57 @@
 [
   {
-    "id": "7",
+    "id": "off_btn_1_color",
     "type": "dropdown",
     "value": "0",
     "label": { "en": "Off Button 1 Color" },
+    "zwave": {
+      "index": 7,
+      "size": 1
+    },
     "values": [
       {
         "id": "0",
-        "label": { "en": "Off" },
-        "value": "0",
-        "zwave": {
-          "index": 7,
-          "size": 1,
-          "value": 0
-        }
+        "label": { "en": "Off" }
       },
       {
         "id": "1",
-        "label": { "en": "Red" },
-        "value": "1",
-        "zwave": {
-          "index": 7,
-          "size": 1,
-          "value": 1
-        }
+        "label": { "en": "Red" }
       },
       {
         "id": "2",
-        "label": { "en": "Green" },
-        "value": "2",
-        "zwave": {
-          "index": 7,
-          "size": 1
-        }
+        "label": { "en": "Green" }
       },      
       {
         "id": "3",
-        "label": { "en": "Blue" },
-        "value": "3",
-        "zwave": {
-          "index": 7,
-          "size": 1
-        }
+        "label": { "en": "Blue" }
       },     
       {
         "id": "4",
-        "label": { "en": "Yellow" },
-        "value": "4",
-        "zwave": {
-          "index": 7,
-          "size": 1
-        }
+        "label": { "en": "Yellow" }
       },
       {
         "id": "5",
-        "label": { "en": "Magenta" },
-        "value": "5",
-        "zwave": {
-          "index": 7,
-          "size": 1
-        }
+        "label": { "en": "Magenta" }
       },      
       {
         "id": "6",
-        "label": { "en": "Cyan" },
-        "value": "6",
-        "zwave": {
-          "index": 7,
-          "size": 1
-        }
+        "label": { "en": "Cyan" }
       },
       {
         "id": "7",
-        "label": { "en": "White" },
-        "value": "7",
-        "zwave": {
-          "index": 7,
-          "size": 1
-        }
+        "label": { "en": "White" }
       }
     ]
   },
   {
-    "id": "8",
+    "id": "off_btn_2_color",
     "type": "dropdown",
-    "value": "0",
     "label": { "en": "Off Button 2 Color" },
-    "values": [
-      {
-        "id": "0",
-        "label": { "en": "Off" }
-      },
-      {
-        "id": "1",
-        "label": { "en": "Red" }
-      },      
-      {
-        "id": "2",
-        "label": { "en": "Green" }
-      },      
-      {
-        "id": "3",
-        "label": { "en": "Blue" }
-      },      
-      {
-        "id": "4",
-        "label": { "en": "Yellow" }
-      },
-      {
-        "id": "5",
-        "label": { "en": "Magenta" }
-      },      
-      {
-        "id": "6",
-        "label": { "en": "Cyan" }
-      },
-      {
-        "id": "7",
-        "label": { "en": "White" }
-      }
-    ]
-  },
-  {
-    "id": "9",
-    "type": "dropdown",
     "value": "0",
-    "label": { "en": "Off Button 3 Color" },
+    "zwave": {
+      "index": 8,
+      "size": 1
+    },
     "values": [
       {
         "id": "0",
@@ -134,7 +60,7 @@
       {
         "id": "1",
         "label": { "en": "Red" }
-      },      
+      },
       {
         "id": "2",
         "label": { "en": "Green" }
@@ -142,135 +68,191 @@
       {
         "id": "3",
         "label": { "en": "Blue" }
-      },      
-      {
-        "id": "4",
-        "label": { "en": "Yellow" }
-      },
-      {
-        "id": "5",
-        "label": { "en": "Magenta" }
-      },      
-      {
-        "id": "6",
-        "label": { "en": "Cyan" }
-      },
-      {
-        "id": "7",
-        "label": { "en": "White" }
-      }
-    ]
-  },
-  {
-    "id": "13",
-    "type": "dropdown",
-    "value": "3",
-    "label": { "en": "On Button 1 Color" },
-    "values": [
-      {
-        "id": "0",
-        "label": { "en": "Off" }
-      },
-      {
-        "id": "1",
-        "label": { "en": "Red" }
-      },      
-      {
-        "id": "2",
-        "label": { "en": "Green" }
-      },      
-      {
-        "id": "3",
-        "label": { "en": "Blue" }
-      },      
-      {
-        "id": "4",
-        "label": { "en": "Yellow" }
-      },
-      {
-        "id": "5",
-        "label": { "en": "Magenta" }
-      },      
-      {
-        "id": "6",
-        "label": { "en": "Cyan" }
-      },
-      {
-        "id": "7",
-        "label": { "en": "White" }
-      }
-    ]
-  },
-  {
-    "id": "14",
-    "type": "dropdown",
-    "value": "3",
-    "label": { "en": "On Button 2 Color" },
-    "values": [
-      {
-        "id": "0",
-        "label": { "en": "Off" }
-      },
-      {
-        "id": "1",
-        "label": { "en": "Red" }
-      },      
-      {
-        "id": "2",
-        "label": { "en": "Green" }
-      },      
-      {
-        "id": "3",
-        "label": { "en": "Blue" }
-      },      
-      {
-        "id": "4",
-        "label": { "en": "Yellow" }
-      },
-      {
-        "id": "5",
-        "label": { "en": "Magenta" }
-      },      
-      {
-        "id": "6",
-        "label": { "en": "Cyan" }
-      },
-      {
-        "id": "7",
-        "label": { "en": "White" }
-      }
-    ]
-  },
-  {
-    "id": "15",
-    "type": "dropdown",
-    "value": "3",
-    "label": { "en": "On Button 3 Color" },
-    "values": [
-      {
-        "id": "0",
-        "label": { "en": "Off" }
-      },
-      {
-        "id": "1",
-        "label": { "en": "Red" }
-      },      
-      {
-        "id": "2",
-        "label": { "en": "Green" }
-      },      
-      {
-        "id": "3",
-        "label": { "en": "Blue" }
-      },      
-      {
-        "id": "4",
-        "label": { "en": "Yellow" }
-      },
-      {
-        "id": "5",
-        "label": { "en": "Magenta" }
       },     
+      {
+        "id": "4",
+        "label": { "en": "Yellow" }
+      },
+      {
+        "id": "5",
+        "label": { "en": "Magenta" }
+      },      
+      {
+        "id": "6",
+        "label": { "en": "Cyan" }
+      },
+      {
+        "id": "7",
+        "label": { "en": "White" }
+      }
+    ]
+  },
+  {
+    "id": "off_btn_3_color",
+    "type": "dropdown",
+    "label": { "en": "Off Button 3 Color" },
+    "value": "0",
+    "zwave": {
+      "index": 9,
+      "size": 1
+    },
+    "values": [
+      {
+        "id": "0",
+        "label": { "en": "Off" }
+      },
+      {
+        "id": "1",
+        "label": { "en": "Red" }
+      },
+      {
+        "id": "2",
+        "label": { "en": "Green" }
+      },      
+      {
+        "id": "3",
+        "label": { "en": "Blue" }
+      },     
+      {
+        "id": "4",
+        "label": { "en": "Yellow" }
+      },
+      {
+        "id": "5",
+        "label": { "en": "Magenta" }
+      },      
+      {
+        "id": "6",
+        "label": { "en": "Cyan" }
+      },
+      {
+        "id": "7",
+        "label": { "en": "White" }
+      }
+    ]
+  },
+  {
+    "id": "on_btn_1_color",
+    "type": "dropdown",
+    "label": { "en": "On Button 1 Color" },
+    "value": "3",
+    "zwave": {
+      "index": 13,
+      "size": 1
+    },
+    "values": [
+      {
+        "id": "0",
+        "label": { "en": "Off" }
+      },
+      {
+        "id": "1",
+        "label": { "en": "Red" }
+      },
+      {
+        "id": "2",
+        "label": { "en": "Green" }
+      },      
+      {
+        "id": "3",
+        "label": { "en": "Blue" }
+      },     
+      {
+        "id": "4",
+        "label": { "en": "Yellow" }
+      },
+      {
+        "id": "5",
+        "label": { "en": "Magenta" }
+      },      
+      {
+        "id": "6",
+        "label": { "en": "Cyan" }
+      },
+      {
+        "id": "7",
+        "label": { "en": "White" }
+      }
+    ]
+  },
+  {
+    "id": "on_btn_2_color",
+    "type": "dropdown",
+    "label": { "en": "On Button 2 Color" },
+    "value": "3",
+    "zwave": {
+      "index": 14,
+      "size": 1
+    },
+    "values": [
+      {
+        "id": "0",
+        "label": { "en": "Off" }
+      },
+      {
+        "id": "1",
+        "label": { "en": "Red" }
+      },
+      {
+        "id": "2",
+        "label": { "en": "Green" }
+      },      
+      {
+        "id": "3",
+        "label": { "en": "Blue" }
+      },     
+      {
+        "id": "4",
+        "label": { "en": "Yellow" }
+      },
+      {
+        "id": "5",
+        "label": { "en": "Magenta" }
+      },      
+      {
+        "id": "6",
+        "label": { "en": "Cyan" }
+      },
+      {
+        "id": "7",
+        "label": { "en": "White" }
+      }
+    ]
+  },
+  {
+    "id": "off_btn_3_color",
+    "type": "dropdown",
+    "label": { "en": "On Button 3 Color" },
+    "value": "3",
+    "zwave": {
+      "index": 15,
+      "size": 1
+    },
+    "values": [
+      {
+        "id": "0",
+        "label": { "en": "Off" }
+      },
+      {
+        "id": "1",
+        "label": { "en": "Red" }
+      },
+      {
+        "id": "2",
+        "label": { "en": "Green" }
+      },      
+      {
+        "id": "3",
+        "label": { "en": "Blue" }
+      },     
+      {
+        "id": "4",
+        "label": { "en": "Yellow" }
+      },
+      {
+        "id": "5",
+        "label": { "en": "Magenta" }
+      },      
       {
         "id": "6",
         "label": { "en": "Cyan" }
