@@ -22,6 +22,38 @@
     "learnmode": {
       "instruction": { "en": "Press top button to include. Hold the left button for 8 seconds to exclude" }
     },
+    "defaultConfiguration": [
+      {
+        "id": 7,
+        "size": 1,
+        "value": 3
+      },
+      {
+        "id": 8,
+        "size": 1,
+        "value": 3
+      },
+      {
+        "id": 9,
+        "size": 1,
+        "value": 3
+      },
+      {
+        "id": 13,
+        "size": 1,
+        "value": 4
+      },
+      {
+        "id": 14,
+        "size": 1,
+        "value": 4
+      },
+      {
+        "id": 15,
+        "size": 1,
+        "value": 4
+      }
+    ],
     "associationGroupsMultiChannel": [ 1 ],
     "associationGroups": [
       2,

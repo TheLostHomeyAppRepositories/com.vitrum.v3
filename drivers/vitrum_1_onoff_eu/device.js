@@ -12,21 +12,15 @@ class Vitrum1OnOffDevice extends ZwaveDevice {
   async onNodeInit() {
 
     this.registerCapability('onoff', 'BASIC');
-    this.registerReportListener('BASIC', 'BASIC_SET', ( rawReport, parsedReport ) => {
-      if(rawReport.Value == 0)
-        this.setCapabilityValue('onoff', false);
-      else
-        this.setCapabilityValue('onoff', true);
-    });
 
-    this.log('Vitrum1OnOffDevice has been initialized');
+    this.log('Vitrum I has been initialized');
   }
 
   /**
    * onAdded is called when the user adds the device, called just after pairing.
    */
   async onAdded() {
-    this.log('Vitrum1OnOffDevice has been added');
+    this.log('Vitrum I Device has been added');
   }
 
   /**
@@ -38,7 +32,7 @@ class Vitrum1OnOffDevice extends ZwaveDevice {
    * @returns {Promise<string|void>} return a custom message that will be displayed
    */
   async onSettings({ oldSettings, newSettings, changedKeys }) {
-    this.log('Vitrum1OnOffDevice settings where changed');
+    this.log('Vitrum I Device settings where changed');
   }
 
   /**
@@ -47,14 +41,14 @@ class Vitrum1OnOffDevice extends ZwaveDevice {
    * @param {string} name The new name
    */
   async onRenamed(name) {
-    this.log('Vitrum1OnOffDevice was renamed');
+    this.log('Vitrum I Device was renamed');
   }
 
   /**
    * onDeleted is called when the user deleted the device.
    */
   async onDeleted() {
-    this.log('Vitrum1OnOffDevice has been deleted');
+    this.log('Vitrum V3 Device has been deleted');
   }
 
 }

@@ -27,7 +27,7 @@
         "productTypeId": [ 4352, 5120, 13312, 17408 ],
         "productId": [ 18688, 24832 ],
         "learnmode": {
-          "instruction": { "en": "Press button to include. Hold the button for 8 seconds to exclude" }
+          "instruction": { "en": "Press button to include. Press button to exclude" }
         },
         "associationGroups": [],
         "associationGroupsMultiChannel": [ 1 ],
@@ -55,7 +55,7 @@
         "productTypeId": [ 4352, 5120, 13312, 17408 ],
         "productId": [ 18944, 25088 ],
         "learnmode": {
-          "instruction": { "en": "Press left button to include. Hold the left button for 8 seconds to exclude" }
+          "instruction": { "en": "Press button to include. Press button to exclude" }
         },
         "associationGroups": [],
         "associationGroupsMultiChannel": [ 1, 2 ],
@@ -89,7 +89,7 @@
         "productTypeId": [ 4352, 5120, 13312, 17408 ],
         "productId": [ 19200, 25344 ],
         "learnmode": {
-          "instruction": { "en": "Press left button to include. Hold the left button for 8 seconds to exclude" }
+          "instruction": { "en": "Press button to include. Press button to exclude" }
         },
         "associationGroups": [],
         "associationGroupsMultiChannel": [ 1, 2, 3 ],
@@ -129,7 +129,7 @@
         "productTypeId": [ 4352, 5120, 13312, 17408 ],
         "productId": [ 19456, 25600 ],
         "learnmode": {
-          "instruction": { "en": "Press left button to include. Hold the left button for 8 seconds to exclude" }
+          "instruction": { "en": "Press button to include. Press button to exclude" }
         },
         "associationGroups": [],
         "associationGroupsMultiChannel": [ 1, 2, 3, 4 ],
@@ -176,7 +176,7 @@
         "productTypeId": [ 4352, 5120, 13312, 17408 ],
         "productId": [ 19712, 26112 ],
         "learnmode": {
-          "instruction": { "en": "Press left button to include. Hold the left button for 8 seconds to exclude" }
+          "instruction": { "en": "Press button to include. Press button to exclude" }
         },
         "associationGroups": [],
         "associationGroupsMultiChannel": [ 1, 2, 3, 4, 5, 6 ],
@@ -234,7 +234,7 @@
         "productTypeId": [ 4608, 4609, 12800, 16896 ],
         "productId": [ 20736, 20737, 37120 ],
         "learnmode": {
-          "instruction": { "en": "Press button to include. Hold button for 8 seconds to exclude" }
+          "instruction": { "en": "Press button to include. Press button to exclude" }
         },
         "associationGroups": [],
         "associationGroupsMultiChannel": [ 1 ],
@@ -262,7 +262,7 @@
         "productTypeId": [ 4608, 4609, 12800, 16896 ],
         "productId": [ 20992, 20993, 37376 ],
         "learnmode": {
-          "instruction": { "en": "Press left button to include. Hold the left button for 8 seconds to exclude" }
+          "instruction": { "en": "Press button to include. Press button to exclude" }
         },
         "associationGroups": [],
         "associationGroupsMultiChannel": [ 1, 2 ],
@@ -296,7 +296,7 @@
         "productTypeId": [ 4608, 4609, 12800, 16896 ],
         "productId": [ 21248, 21249, 37632 ],
         "learnmode": {
-          "instruction": { "en": "Press left button to include. Hold the left button for 8 seconds to exclude" }
+          "instruction": { "en": "Press button to include. Press button to exclude" }
         },
         "associationGroups": [],
         "associationGroupsMultiChannel": [ 1, 2, 3 ],

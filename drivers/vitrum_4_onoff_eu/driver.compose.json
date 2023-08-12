@@ -1,0 +1,80 @@
+{
+  "name": {
+    "en": "Vitrum 4 On/Off EU"
+  },
+  "class": "light",
+  "capabilities": [],
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "zwave"
+  ],
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "xlarge": "{{driverAssetsPath}}/images/xlarge.png"
+  },
+  "zwave": {
+    "manufacturerId": 266,
+    "productTypeId": [
+      0
+    ],
+    "productId": [
+      0
+    ],
+    "defaultConfiguration": [
+      {
+        "id": 7,
+        "size": 1,
+        "value": 3
+      },
+      {
+        "id": 8,
+        "size": 1,
+        "value": 3
+      },
+      {
+        "id": 9,
+        "size": 1,
+        "value": 3
+      },
+      {
+        "id": 10,
+        "size": 1,
+        "value": 3
+      },
+      {
+        "id": 13,
+        "size": 1,
+        "value": 4
+      },
+      {
+        "id": 14,
+        "size": 1,
+        "value": 4
+      },
+      {
+        "id": 15,
+        "size": 1,
+        "value": 4
+      },
+      {
+        "id": 16,
+        "size": 1,
+        "value": 4
+      }
+    ],
+    "zwaveAllianceProductId": 3271,
+    "associationGroups": [
+      1
+    ],
+    "associationGroupsOptions": {
+      "1": {
+        "hint": {
+          "en": "Lifeline report\r\nAdd Controller Node ID to the list of Node ID destinations belonging to the Lifeline Group, in order to let the controller receive Central Scene Notification report and  Device Reset Locally Notification reports.\r\n\r\nLifeline report with End Point information\r\nAdd both Controller Node ID and Controller End Point to the list of End Points belonging to the Lifeline Group, in order to let the controller receive Central Scene Notification report with the End Point source address information. That may be achieved by sending the Multichannel Association Set Command Class and filling “Multi Channel Node ID” field with the Controller Node ID and “End Point” field with the Controller End Point."
+        }
+      }
+    }
+  }
+}

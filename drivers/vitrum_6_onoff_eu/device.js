@@ -1,23 +1,26 @@
 'use strict';
 
-const { Device } = require('homey');
+const Homey = require('homey');
 const { ZwaveDevice } = require('homey-zwavedriver');
 
 
-class Vitrum2OnOffDevice extends ZwaveDevice {
+class Vitrum6OnOffDevice extends ZwaveDevice {
 
+  /**
+   * onInit is called when the device is initialized.
+   */
   async onNodeInit() {
 
     this.registerCapability('onoff', 'BASIC');
 
-    this.log('Vitrum II has been initialized');
+    this.log('Vitrum VI Device has been initialized');
   }
 
   /**
    * onAdded is called when the user adds the device, called just after pairing.
    */
   async onAdded() {
-    this.log('Vitrum II Device has been added');
+    this.log('Vitrum VI Device has been added');
   }
 
   /**
@@ -29,7 +32,7 @@ class Vitrum2OnOffDevice extends ZwaveDevice {
    * @returns {Promise<string|void>} return a custom message that will be displayed
    */
   async onSettings({ oldSettings, newSettings, changedKeys }) {
-    this.log('Vitrum II Device settings where changed');
+    this.log('Vitrum VI Device settings where changed');
   }
 
   /**
@@ -38,16 +41,16 @@ class Vitrum2OnOffDevice extends ZwaveDevice {
    * @param {string} name The new name
    */
   async onRenamed(name) {
-    this.log('Vitrum II Device was renamed');
+    this.log('Vitrum VI Device was renamed');
   }
 
   /**
    * onDeleted is called when the user deleted the device.
    */
   async onDeleted() {
-    this.log('Vitrum II Device has been deleted');
+    this.log('Vitrum VI Device has been deleted');
   }
 
 }
 
-module.exports = Vitrum2OnOffDevice;
+module.exports = MyDevice;

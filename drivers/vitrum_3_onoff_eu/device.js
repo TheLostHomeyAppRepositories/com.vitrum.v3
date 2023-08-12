@@ -1,32 +1,25 @@
 'use strict';
 
-const Homey = require('homey');
+const { Device } = require('homey');
 const { ZwaveDevice } = require('homey-zwavedriver');
 
 
 class Vitrum3OnOffDevice extends ZwaveDevice {
 
   /**
-   * onInit is called when the device is initialized.
+   * onNodeInit is called when the device is initialized.
    */
   async onNodeInit() {
-
+    
     this.registerCapability('onoff', 'BASIC');
-    this.registerReportListener('BASIC', 'BASIC_SET', ( rawReport, parsedReport ) => {
-      if(rawReport.Value == 0)
-        this.setCapabilityValue('onoff', false);
-      else
-        this.setCapabilityValue('onoff', true);
-    });
-
-    this.log('Vitrum3OnOffDevice has been initialized');
+    this.log('Vitrum III has been initialized');
   }
 
   /**
    * onAdded is called when the user adds the device, called just after pairing.
    */
   async onAdded() {
-    this.log('Vitrum3OnOffDevice has been added');
+    this.log('Vitrum III has been added');
   }
 
   /**
@@ -38,7 +31,20 @@ class Vitrum3OnOffDevice extends ZwaveDevice {
    * @returns {Promise<string|void>} return a custom message that will be displayed
    */
   async onSettings({ oldSettings, newSettings, changedKeys }) {
-    this.log('Vitrum3OnOffDevice settings where changed');
+    this.log('Vitrum III settings where changed');
+ /*   this.Vitrum3OnOffDevice.configurationSet()
+
+    const keys = Object.keys(newSettings);
+    keys.forEach((key, index) => {
+      this.log(`${key}: ${newSettings[key]}`);
+    });
+
+    this.configurationSet({
+      `index: ${key}`,
+      size: 1,
+      id: 'led_ring_color_on',
+    }, new Buffer([args.color]));
+    */
   }
 
   /**
@@ -47,14 +53,14 @@ class Vitrum3OnOffDevice extends ZwaveDevice {
    * @param {string} name The new name
    */
   async onRenamed(name) {
-    this.log('Vitrum3OnOffDevice was renamed');
+    this.log('Vitrum III Device was renamed');
   }
 
   /**
    * onDeleted is called when the user deleted the device.
    */
   async onDeleted() {
-    this.log('Vitrum3OnOffDevice has been deleted');
+    this.log('Vitrum III Device has been deleted');
   }
 
 }
