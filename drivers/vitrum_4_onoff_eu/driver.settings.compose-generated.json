@@ -1,0 +1,534 @@
+[
+  {
+    "id": "10",
+    "value": 3,
+    "label": {
+      "en": "Button N.4 Off status LED"
+    },
+    "hint": {
+      "en": "Color of LED associated to push-button N.4 reporting an off state."
+    },
+    "zwave": {
+      "index": 10,
+      "size": 1
+    },
+    "attr": {
+      "min": 0,
+      "max": 7
+    },
+    "type": "number"
+  },
+  {
+    "id": "11",
+    "value": 3,
+    "label": {
+      "en": "Button N.5 Off status LED"
+    },
+    "hint": {
+      "en": "Color of LED associated to push-button N.5 reporting an off state."
+    },
+    "zwave": {
+      "index": 11,
+      "size": 1
+    },
+    "attr": {
+      "min": 0,
+      "max": 7
+    },
+    "type": "number"
+  },
+  {
+    "id": "12",
+    "value": 3,
+    "label": {
+      "en": "Button N.6 Off status LED"
+    },
+    "hint": {
+      "en": "Color of LED associated to push-button N.6 reporting an off state."
+    },
+    "zwave": {
+      "index": 12,
+      "size": 1
+    },
+    "attr": {
+      "min": 0,
+      "max": 7
+    },
+    "type": "number"
+  },
+  {
+    "id": "13",
+    "value": 4,
+    "label": {
+      "en": "Button N.1 On status LED"
+    },
+    "hint": {
+      "en": "Color of LED associated to push-button N.1 reporting an on state."
+    },
+    "zwave": {
+      "index": 13,
+      "size": 1
+    },
+    "attr": {
+      "min": 0,
+      "max": 7
+    },
+    "type": "number"
+  },
+  {
+    "id": "14",
+    "value": 4,
+    "label": {
+      "en": "Button N.2 On status LED"
+    },
+    "hint": {
+      "en": "Color of LED associated to push-button N.2 reporting an on state."
+    },
+    "zwave": {
+      "index": 14,
+      "size": 1
+    },
+    "attr": {
+      "min": 0,
+      "max": 7
+    },
+    "type": "number"
+  },
+  {
+    "id": "15",
+    "value": 4,
+    "label": {
+      "en": "Button N.3 On status LED"
+    },
+    "hint": {
+      "en": "Color of LED associated to push-button N.3 reporting an on state."
+    },
+    "zwave": {
+      "index": 15,
+      "size": 1
+    },
+    "attr": {
+      "min": 0,
+      "max": 7
+    },
+    "type": "number"
+  },
+  {
+    "id": "16",
+    "value": 4,
+    "label": {
+      "en": "Button N.4 On status LED"
+    },
+    "hint": {
+      "en": "Color of LED associated to push-button N.4 reporting an on state."
+    },
+    "zwave": {
+      "index": 16,
+      "size": 1
+    },
+    "attr": {
+      "min": 0,
+      "max": 7
+    },
+    "type": "number"
+  },
+  {
+    "id": "17",
+    "value": 4,
+    "label": {
+      "en": "Button N.5 On status LED"
+    },
+    "hint": {
+      "en": "Color of LED associated to push-button N.5 reporting an on state."
+    },
+    "zwave": {
+      "index": 17,
+      "size": 1
+    },
+    "attr": {
+      "min": 0,
+      "max": 7
+    },
+    "type": "number"
+  },
+  {
+    "id": "18",
+    "value": 4,
+    "label": {
+      "en": "Button N.6 On status LED"
+    },
+    "hint": {
+      "en": "Color of LED associated to push-button N.6 reporting an on state."
+    },
+    "zwave": {
+      "index": 18,
+      "size": 1
+    },
+    "attr": {
+      "min": 0,
+      "max": 7
+    },
+    "type": "number"
+  },
+  {
+    "id": "206",
+    "value": 100,
+    "label": {
+      "en": "Buttons Max. Brightness"
+    },
+    "hint": {
+      "en": "Maximum brightness of LEDs associated to push-buttons.\r\nRemark: value must be grater\r\nor equal than Parameter N.207."
+    },
+    "zwave": {
+      "index": 206,
+      "size": 1
+    },
+    "attr": {
+      "min": 5,
+      "max": 100
+    },
+    "type": "number"
+  },
+  {
+    "id": "207",
+    "value": 5,
+    "label": {
+      "en": "Buttons Min. Brightness"
+    },
+    "hint": {
+      "en": "Maximum brightness of LEDs associated to push-buttons.\r\nRemark: value must be less\r\nor equal than Parameter N.206."
+    },
+    "zwave": {
+      "index": 207,
+      "size": 1
+    },
+    "attr": {
+      "min": 0,
+      "max": 100
+    },
+    "type": "number"
+  },
+  {
+    "id": "209",
+    "value": 1,
+    "label": {
+      "en": "Buzzer"
+    },
+    "hint": {
+      "en": "Buzzer operating status.\r\n"
+    },
+    "zwave": {
+      "index": 209,
+      "size": 1
+    },
+    "attr": {
+      "min": 0,
+      "max": 1
+    },
+    "type": "number"
+  },
+  {
+    "id": "218",
+    "value": 0,
+    "label": {
+      "en": "Front-end Buttons lock"
+    },
+    "hint": {
+      "en": "Buttons lock status\r\n"
+    },
+    "zwave": {
+      "index": 218,
+      "size": 1
+    },
+    "attr": {
+      "min": 0,
+      "max": 1
+    },
+    "type": "number"
+  },
+  {
+    "id": "25",
+    "value": 1,
+    "label": {
+      "en": "Output port connected to Button N.1"
+    },
+    "hint": {
+      "en": "Output port connected to Button N.1.\r\nRemark: connecting a button to an output port already connected to another different button, will force the previously connected button to be automatically disconnected"
+    },
+    "zwave": {
+      "index": 25,
+      "size": 1
+    },
+    "attr": {
+      "min": 0,
+      "max": 6
+    },
+    "type": "number"
+  },
+  {
+    "id": "26",
+    "value": 2,
+    "label": {
+      "en": "Output port connected to Button N.2"
+    },
+    "hint": {
+      "en": "Output port connected to Button N.2.\r\nRemark: connecting a button to an output\r\nport already connected to another different\r\nbutton, will force the previously connected\r\nbutton to be automatically disconnected"
+    },
+    "zwave": {
+      "index": 26,
+      "size": 1
+    },
+    "attr": {
+      "min": 0,
+      "max": 6
+    },
+    "type": "number"
+  },
+  {
+    "id": "27",
+    "value": 3,
+    "label": {
+      "en": "Output port connected to Button N.3"
+    },
+    "hint": {
+      "en": "Output port connected to Button N.3.\r\nRemark: connecting a button to an output\r\nport already connected to another different\r\nbutton, will force the previously connected\r\nbutton to be automatically disconnected"
+    },
+    "zwave": {
+      "index": 27,
+      "size": 1
+    },
+    "attr": {
+      "min": 0,
+      "max": 6
+    },
+    "type": "number"
+  },
+  {
+    "id": "28",
+    "value": 4,
+    "label": {
+      "en": "Output port connected to Button N.4"
+    },
+    "hint": {
+      "en": "Output port connected to Button N.4.\r\nRemark: connecting a button to an output\r\nport already connected to another different\r\nbutton, will force the previously connected\r\nbutton to be automatically disconnected"
+    },
+    "zwave": {
+      "index": 28,
+      "size": 1
+    },
+    "attr": {
+      "min": 0,
+      "max": 6
+    },
+    "type": "number"
+  },
+  {
+    "id": "29",
+    "value": 5,
+    "label": {
+      "en": "Output port connected to Button N.5"
+    },
+    "hint": {
+      "en": "Output port connected to Button N.5.\r\nRemark: connecting a button to an output\r\nport already connected to another different\r\nbutton, will force the previously connected\r\nbutton to be automatically disconnected"
+    },
+    "zwave": {
+      "index": 29,
+      "size": 1
+    },
+    "attr": {
+      "min": 0,
+      "max": 6
+    },
+    "type": "number"
+  },
+  {
+    "id": "30",
+    "value": 6,
+    "label": {
+      "en": "Output port connected to Button N.6"
+    },
+    "hint": {
+      "en": "Output port connected to Button N.6.\r\nRemark: connecting a button to an output\r\nport already connected to another different\r\nbutton, will force the previously connected\r\nbutton to be automatically disconnected"
+    },
+    "zwave": {
+      "index": 30,
+      "size": 1
+    },
+    "attr": {
+      "min": 0,
+      "max": 6
+    },
+    "type": "number"
+  },
+  {
+    "id": "31",
+    "value": 1,
+    "label": {
+      "en": "Basic Set On from Group 2"
+    },
+    "hint": {
+      "en": "Value of the Basic Set command sent:\r\n0: 99 (0x63)\r\n1: 255 (0xFF)"
+    },
+    "zwave": {
+      "index": 31,
+      "size": 1
+    },
+    "attr": {
+      "min": 0,
+      "max": 1
+    },
+    "type": "number"
+  },
+  {
+    "id": "32",
+    "value": 1,
+    "label": {
+      "en": "Basic Set On from Group 3"
+    },
+    "hint": {
+      "en": "Value of the Basic Set command sent:\r\n0: 99 (0x63)\r\n1: 255 (0xFF)"
+    },
+    "zwave": {
+      "index": 32,
+      "size": 1
+    },
+    "attr": {
+      "min": 0,
+      "max": 1
+    },
+    "type": "number"
+  },
+  {
+    "id": "33",
+    "value": 1,
+    "label": {
+      "en": "Basic Set On from Group 4"
+    },
+    "hint": {
+      "en": "Value of the Basic Set command sent:\r\n0: 99 (0x63)\r\n1: 255 (0xFF)"
+    },
+    "zwave": {
+      "index": 33,
+      "size": 1
+    },
+    "attr": {
+      "min": 0,
+      "max": 1
+    },
+    "type": "number"
+  },
+  {
+    "id": "34",
+    "value": 1,
+    "label": {
+      "en": "Basic Set On from Group 5"
+    },
+    "hint": {
+      "en": "Value of the Basic Set command sent:\r\n0: 99 (0x63)\r\n1: 255 (0xFF)"
+    },
+    "zwave": {
+      "index": 34,
+      "size": 1
+    },
+    "attr": {
+      "min": 0,
+      "max": 1
+    },
+    "type": "number"
+  },
+  {
+    "id": "35",
+    "value": 1,
+    "label": {
+      "en": "Basic Set On from Group 6"
+    },
+    "hint": {
+      "en": "Value of the Basic Set command sent:\r\n0: 99 (0x63)\r\n1: 255 (0xFF)"
+    },
+    "zwave": {
+      "index": 35,
+      "size": 1
+    },
+    "attr": {
+      "min": 0,
+      "max": 1
+    },
+    "type": "number"
+  },
+  {
+    "id": "36",
+    "value": 1,
+    "label": {
+      "en": "Basic Set On from Group 7"
+    },
+    "hint": {
+      "en": "Value of the Basic Set command sent:\r\n0: 99 (0x63)\r\n1: 255 (0xFF)"
+    },
+    "zwave": {
+      "index": 36,
+      "size": 1
+    },
+    "attr": {
+      "min": 0,
+      "max": 1
+    },
+    "type": "number"
+  },
+  {
+    "id": "7",
+    "value": 3,
+    "label": {
+      "en": "Button N.1 Off status LED"
+    },
+    "hint": {
+      "en": "Color of LED associated to push-button N.1 reporting an off state."
+    },
+    "zwave": {
+      "index": 7,
+      "size": 1
+    },
+    "attr": {
+      "min": 0,
+      "max": 7
+    },
+    "type": "number"
+  },
+  {
+    "id": "8",
+    "value": 3,
+    "label": {
+      "en": "Button N.2 Off status LED"
+    },
+    "hint": {
+      "en": "Color of LED associated to push-button N.2 reporting an off state."
+    },
+    "zwave": {
+      "index": 8,
+      "size": 1
+    },
+    "attr": {
+      "min": 0,
+      "max": 7
+    },
+    "type": "number"
+  },
+  {
+    "id": "9",
+    "value": 3,
+    "label": {
+      "en": "Button N.3 Off status LED"
+    },
+    "hint": {
+      "en": "Color of LED associated to push-button N.3 reporting an off state."
+    },
+    "zwave": {
+      "index": 9,
+      "size": 1
+    },
+    "attr": {
+      "min": 0,
+      "max": 7
+    },
+    "type": "number"
+  }
+]

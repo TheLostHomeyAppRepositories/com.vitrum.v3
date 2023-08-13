@@ -2,7 +2,7 @@
   {
     "id": "off_btn_1_color",
     "type": "dropdown",
-    "value": "0",
+    "value": "3",
     "label": { "en": "Off Button 1 Color" },
     "zwave": {
       "index": 7,
@@ -47,7 +47,7 @@
     "id": "on_btn_1_color",
     "type": "dropdown",
     "label": { "en": "On Button 1 Color" },
-    "value": "3",
+    "value": "4",
     "zwave": {
       "index": 13,
       "size": 1
@@ -111,7 +111,7 @@
     },
     "value": 5,
     "zwave": {
-      "index": 206,
+      "index": 207,
       "size": 1
     },
     "attr": { "min": 0,"max": 100 },
