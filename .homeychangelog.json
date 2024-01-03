@@ -7,5 +7,11 @@
   },
   "3.0.3": {
     "en": "Changelog and Github repo"
+  },
+  "3.1.0": {
+    "en": "Added a few Vitrum BS switches IDs"
+  },
+  "3.1.1": {
+    "en": "Added a few new IDs for Vitrum BS switches"
   }
 }
