@@ -13,5 +13,8 @@
   },
   "3.1.1": {
     "en": "Added a few new IDs for Vitrum BS switches"
+  },
+  "3.1.2": {
+    "en": "Small fixes"
   }
 }

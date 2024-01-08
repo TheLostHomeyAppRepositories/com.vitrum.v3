@@ -237,7 +237,7 @@
     },
     "value": 5,
     "zwave": {
-      "index": 206,
+      "index": 207,
       "size": 1
     },
     "attr": { "min": 0,"max": 100 },

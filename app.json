@@ -1,7 +1,7 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "com.vitrum.v3",
-  "version": "3.1.1",
+  "version": "3.1.2",
   "brandColor": "#FF0000",
   "compatibility": ">=5.0.0",
   "sdk": 3,
@@ -714,11 +714,11 @@
             "en": "Buttons Min. Brightness"
           },
           "hint": {
-            "en": "This parameter (206) configures minimum brightness when button is off"
+            "en": "This parameter (207) configures minimum brightness when button is off"
           },
           "value": 5,
           "zwave": {
-            "index": 206,
+            "index": 207,
             "size": 1
           },
           "attr": {
@@ -1331,11 +1331,11 @@
             "en": "Buttons Min. Brightness"
           },
           "hint": {
-            "en": "This parameter (206) configures minimum brightness when button is off"
+            "en": "This parameter (207) configures minimum brightness when button is off"
           },
           "value": 5,
           "zwave": {
-            "index": 206,
+            "index": 207,
             "size": 1
           },
           "attr": {
@@ -2102,11 +2102,11 @@
             "en": "Buttons Min. Brightness"
           },
           "hint": {
-            "en": "This parameter (206) configures minimum brightness when button is off"
+            "en": "This parameter (207) configures minimum brightness when button is off"
           },
           "value": 5,
           "zwave": {
-            "index": 206,
+            "index": 207,
             "size": 1
           },
           "attr": {
@@ -3201,11 +3201,11 @@
             "en": "Buttons Min. Brightness"
           },
           "hint": {
-            "en": "This parameter (206) configures minimum brightness when button is off"
+            "en": "This parameter (207) configures minimum brightness when button is off"
           },
           "value": 5,
           "zwave": {
-            "index": 206,
+            "index": 207,
             "size": 1
           },
           "attr": {
