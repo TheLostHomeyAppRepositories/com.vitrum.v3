@@ -13,6 +13,6 @@
     "eslint-config-athom": "^3.1.1"
   },
   "dependencies": {
-    "homey-zwavedriver": "^2.1.10"
+    "homey-zwavedriver": "^2.2.0"
   }
 }

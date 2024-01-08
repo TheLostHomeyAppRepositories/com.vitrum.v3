@@ -1,0 +1,64 @@
+{
+  "name": {
+    "en": "Vitrum 1 Satellite BS"
+  },
+  "class": "light",
+  "capabilities": [
+    "onoff"
+  ],
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "zwave"
+  ],
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "xlarge": "{{driverAssetsPath}}/images/xlarge.png"
+  },
+  "zwave": {
+    "zwaveAllianceProductId": 2100,
+    "manufacturerId": 0,
+    "productTypeId": [
+      9216
+    ],
+    "productId": [
+      41216
+    ],
+    "learnmode": {
+      "instruction": { "en": "Press top button to include. Hold the left button for 8 seconds to exclude" }
+    },    
+    "defaultConfiguration": [
+      {
+        "id": 7,
+        "size": 1,
+        "value": 3
+      },
+      {
+        "id": 13,
+        "size": 1,
+        "value": 4
+      }
+    ],
+    "associationGroupsMultiChannel": [ 1 ],
+    "associationGroups": [
+      2
+    ],
+    "associationGroupsOptions": {
+      "1": {
+        "hint": {
+          "en": "Z-Wave Plus Lifeline"
+        }
+      }
+    },
+    "multiChannelNodes": {
+      "1": {
+        "class": "socket",
+        "capabilities": [ "onoff" ],
+        "icon": "/drivers/vitrum_1_onoff_eu/assets/icon.svg",
+        "name": { "en": "Switch 1" }
+      }
+    }    
+  }
+}
