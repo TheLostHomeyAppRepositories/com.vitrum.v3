@@ -10,14 +10,14 @@ class Vitrum2OnOffDevice extends ZwaveDevice {
 
     this.registerCapability('onoff', 'BASIC');
 
-    this.log('Vitrum II has been initialized');
+    this.log('Vitrum II OnOff EU has been initialized');
   }
 
   /**
    * onAdded is called when the user adds the device, called just after pairing.
    */
   async onAdded() {
-    this.log('Vitrum II Device has been added');
+    this.log('Vitrum II OnOff EU has been added');
   }
 
 }

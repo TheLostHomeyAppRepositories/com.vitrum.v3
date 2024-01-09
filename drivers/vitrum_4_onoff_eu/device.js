@@ -24,4 +24,4 @@ class Vitrum4OnOffDevice extends ZwaveDevice {
 
 }
 
-module.exports = MyDevice;
+module.exports = Vitrum4OnOffDevice;

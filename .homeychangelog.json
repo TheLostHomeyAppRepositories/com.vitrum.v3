@@ -16,5 +16,8 @@
   },
   "3.1.2": {
     "en": "Small fixes"
+  },
+  "3.2.0": {
+    "en": "Implemented Vitrum I, II, IV (OnOff/Satellite) British version (BS)"
   }
 }
