@@ -22,5 +22,8 @@
   },
   "3.2.1": {
     "en": "Fixed missing OnOff RunListener on BS Devices"
+  },
+  "3.2.2": {
+    "en": "reportListener on BS devices "
   }
 }
