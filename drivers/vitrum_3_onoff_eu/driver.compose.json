@@ -3,7 +3,7 @@
     "en": "Vitrum 3 On/Off EU"
   },
   "class": "light",
-  "capabilities": [],
+  "capabilities": ["onoff"],
   "platforms": [
     "local"
   ],
@@ -63,19 +63,19 @@
     "multiChannelNodes": {
       "1": {
         "class": "socket",
-        "capabilities": [ "onoff" ],
+        "capabilities": ["onoff", "measure_power", "meter_power"],
         "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
         "name": { "en": "Switch 1" }
       },
       "2": {
         "class": "socket",
-        "capabilities": [ "onoff" ],
+        "capabilities": ["onoff", "measure_power", "meter_power"],
         "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
         "name": { "en": "Switch 2" }
       },
       "3": {
         "class": "socket",
-        "capabilities": [ "onoff" ],
+        "capabilities": ["onoff", "measure_power", "meter_power"],
         "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
         "name": { "en": "Switch 3" }
       }

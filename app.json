@@ -2041,7 +2041,9 @@
         "en": "Vitrum 1 On/Off EU"
       },
       "class": "light",
-      "capabilities": [],
+      "capabilities": [
+        "onoff"
+      ],
       "platforms": [
         "local"
       ],
@@ -2099,7 +2101,9 @@
           "1": {
             "class": "socket",
             "capabilities": [
-              "onoff"
+              "onoff",
+              "measure_power",
+              "meter_power"
             ],
             "icon": "/drivers/vitrum_1_onoff_eu/assets/icon.svg",
             "name": {
@@ -2315,7 +2319,9 @@
         "en": "Vitrum 2 On/Off EU"
       },
       "class": "light",
-      "capabilities": [],
+      "capabilities": [
+        "onoff"
+      ],
       "platforms": [
         "local"
       ],
@@ -2384,7 +2390,9 @@
           "1": {
             "class": "socket",
             "capabilities": [
-              "onoff"
+              "onoff",
+              "measure_power",
+              "meter_power"
             ],
             "icon": "/drivers/vitrum_1_onoff_eu/assets/icon.svg",
             "name": {
@@ -2394,7 +2402,9 @@
           "2": {
             "class": "socket",
             "capabilities": [
-              "onoff"
+              "onoff",
+              "measure_power",
+              "meter_power"
             ],
             "icon": "/drivers/vitrum_1_onoff_eu/assets/icon.svg",
             "name": {
@@ -2772,7 +2782,9 @@
         "en": "Vitrum 3 On/Off EU"
       },
       "class": "light",
-      "capabilities": [],
+      "capabilities": [
+        "onoff"
+      ],
       "platforms": [
         "local"
       ],
@@ -2848,7 +2860,9 @@
           "1": {
             "class": "socket",
             "capabilities": [
-              "onoff"
+              "onoff",
+              "measure_power",
+              "meter_power"
             ],
             "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
             "name": {
@@ -2858,7 +2872,9 @@
           "2": {
             "class": "socket",
             "capabilities": [
-              "onoff"
+              "onoff",
+              "measure_power",
+              "meter_power"
             ],
             "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
             "name": {
@@ -2868,7 +2884,9 @@
           "3": {
             "class": "socket",
             "capabilities": [
-              "onoff"
+              "onoff",
+              "measure_power",
+              "meter_power"
             ],
             "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
             "name": {
@@ -3389,7 +3407,9 @@
         "en": "Vitrum 4 On/Off EU"
       },
       "class": "light",
-      "capabilities": [],
+      "capabilities": [
+        "onoff"
+      ],
       "platforms": [
         "local"
       ],
@@ -3466,7 +3486,9 @@
           "1": {
             "class": "socket",
             "capabilities": [
-              "onoff"
+              "onoff",
+              "measure_power",
+              "meter_power"
             ],
             "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
             "name": {
@@ -3476,7 +3498,9 @@
           "2": {
             "class": "socket",
             "capabilities": [
-              "onoff"
+              "onoff",
+              "measure_power",
+              "meter_power"
             ],
             "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
             "name": {
@@ -3486,7 +3510,9 @@
           "3": {
             "class": "socket",
             "capabilities": [
-              "onoff"
+              "onoff",
+              "measure_power",
+              "meter_power"
             ],
             "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
             "name": {
@@ -3496,7 +3522,9 @@
           "4": {
             "class": "socket",
             "capabilities": [
-              "onoff"
+              "onoff",
+              "measure_power",
+              "meter_power"
             ],
             "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
             "name": {
@@ -4259,7 +4287,9 @@
           "1": {
             "class": "socket",
             "capabilities": [
-              "onoff"
+              "onoff",
+              "measure_power",
+              "meter_power"
             ],
             "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
             "name": {
@@ -4269,7 +4299,9 @@
           "2": {
             "class": "socket",
             "capabilities": [
-              "onoff"
+              "onoff",
+              "measure_power",
+              "meter_power"
             ],
             "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
             "name": {
@@ -4279,7 +4311,9 @@
           "3": {
             "class": "socket",
             "capabilities": [
-              "onoff"
+              "onoff",
+              "measure_power",
+              "meter_power"
             ],
             "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
             "name": {
@@ -4289,7 +4323,9 @@
           "4": {
             "class": "socket",
             "capabilities": [
-              "onoff"
+              "onoff",
+              "measure_power",
+              "meter_power"
             ],
             "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
             "name": {
@@ -4299,7 +4335,9 @@
           "5": {
             "class": "socket",
             "capabilities": [
-              "onoff"
+              "onoff",
+              "measure_power",
+              "meter_power"
             ],
             "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
             "name": {
@@ -4309,7 +4347,9 @@
           "6": {
             "class": "socket",
             "capabilities": [
-              "onoff"
+              "onoff",
+              "measure_power",
+              "meter_power"
             ],
             "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
             "name": {

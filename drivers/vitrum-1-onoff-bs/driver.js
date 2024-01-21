@@ -2,7 +2,7 @@
 
 const { Driver } = require('homey');
 
-class MyDriver extends Driver {
+class Vitrum1BSDriver extends Driver {
 
   /**
    * onInit is called when the driver is initialized.
@@ -33,4 +33,4 @@ class MyDriver extends Driver {
 
 }
 
-module.exports = MyDriver;
+module.exports = Vitrum1BSDriver;

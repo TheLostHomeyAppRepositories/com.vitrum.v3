@@ -3,7 +3,7 @@
     "en": "Vitrum 1 On/Off EU"
   },
   "class": "light",
-  "capabilities": [],
+  "capabilities": ["onoff"],
   "platforms": [
     "local"
   ],
@@ -41,7 +41,7 @@
     "multiChannelNodes": {
       "1": {
         "class": "socket",
-        "capabilities": [ "onoff" ],
+        "capabilities": ["onoff", "measure_power", "meter_power"],
         "icon": "/drivers/vitrum_1_onoff_eu/assets/icon.svg",
         "name": { "en": "Switch 1" }
       }
