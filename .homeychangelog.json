@@ -25,5 +25,8 @@
   },
   "3.2.2": {
     "en": "reportListener on BS devices "
+  },
+  "3.3.0": {
+    "en": "Solved raised exception due to missing capabilities not being added automatically."
   }
 }
