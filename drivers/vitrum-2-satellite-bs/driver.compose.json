@@ -3,9 +3,7 @@
     "en": "Vitrum 2 Satellite BS"
   },
   "class": "light",
-  "capabilities": [
-    "onoff"
-  ],
+  "capabilities": [  ],
   "platforms": [
     "local"
   ],

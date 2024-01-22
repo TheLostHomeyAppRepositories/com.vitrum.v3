@@ -5,15 +5,18 @@ const { ZwaveDevice } = require('homey-zwavedriver');
 
 
 class Vitrum2OnOffDevice extends ZwaveDevice {
-  async onInit() {
-      if (!this.hasCapability('onoff')){this.addCapability('onoff')};
-  }
-
   /**
    * onNodeInit is called when the device is initialized.
    */
   async onNodeInit() {
+    if (!this.hasCapability('onoff')){this.addCapability('onoff')};
     this.registerCapability('onoff', 'BASIC');
+    this.registerReportListener('BASIC', 'BASIC_SET', ( rawReport, parsedReport ) => {
+      if(rawReport.Value == 0)
+        this.setCapabilityValue('onoff', false);
+      else
+        this.setCapabilityValue('onoff', true);
+    });
     this.log('Vitrum II OnOff EU has been initialized');
   }
 

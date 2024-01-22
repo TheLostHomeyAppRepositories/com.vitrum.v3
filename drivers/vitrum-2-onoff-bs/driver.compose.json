@@ -3,9 +3,7 @@
     "en": "Vitrum 2 On/Off BS"
   },
   "class": "light",
-  "capabilities": [
-    "onoff"
-  ],
+  "capabilities": [ ],
   "platforms": [
     "local"
   ],

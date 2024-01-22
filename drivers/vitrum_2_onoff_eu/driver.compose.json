@@ -3,7 +3,7 @@
     "en": "Vitrum 2 On/Off EU"
   },
   "class": "light",
-  "capabilities": ["onoff"],
+  "capabilities": [],
   "platforms": [
     "local"
   ],
