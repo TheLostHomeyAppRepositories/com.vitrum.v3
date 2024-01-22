@@ -28,5 +28,8 @@
   },
   "3.3.0": {
     "en": "Solved raised exception due to missing capabilities not being added automatically."
+  },
+  "3.3.1": {
+    "en": "onNodeInit() instead of onInit() in device.js"
   }
 }
