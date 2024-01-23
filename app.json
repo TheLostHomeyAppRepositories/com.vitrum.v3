@@ -36,6 +36,10 @@
       },
       "class": "light",
       "capabilities": [],
+      "capabilitiesOptions": {
+        "uiComponent": null,
+        "getable": false
+      },
       "platforms": [
         "local"
       ],
@@ -88,7 +92,17 @@
         "associationGroupsOptions": {
           "1": {
             "hint": {
-              "en": "Z-Wave Plus Lifeline"
+              "en": "Lifeline report\r\nAdd Controller Node ID to the list of Node ID destinations belonging to the Lifeline Group, in order to let the controller receive Central Scene Notification report and  Device Reset Locally Notification reports.\r\n\r\nLifeline report with End Point information\r\nAdd both Controller Node ID and Controller End Point to the list of End Points belonging to the Lifeline Group, in order to let the controller receive Central Scene Notification report with the End Point source address information. That may be achieved by sending the Multichannel Association Set Command Class and filling “Multi Channel Node ID” field with the Controller Node ID and “End Point” field with the Controller End Point."
+            }
+          },
+          "2": {
+            "hint": {
+              "en": "Reserved"
+            }
+          },
+          "3": {
+            "hint": {
+              "en": "Switch 1: Associations nodeid(s)"
             }
           }
         },
@@ -101,7 +115,8 @@
             "icon": "/drivers/vitrum_1_onoff_eu/assets/icon.svg",
             "name": {
               "en": "Switch 1"
-            }
+            },
+            "settings": []
           }
         }
       },
@@ -313,6 +328,10 @@
       },
       "class": "light",
       "capabilities": [],
+      "capabilitiesOptions": {
+        "uiComponent": null,
+        "getable": false
+      },
       "platforms": [
         "local"
       ],
@@ -359,7 +378,17 @@
         "associationGroupsOptions": {
           "1": {
             "hint": {
-              "en": "Z-Wave Plus Lifeline"
+              "en": "Lifeline report\r\nAdd Controller Node ID to the list of Node ID destinations belonging to the Lifeline Group, in order to let the controller receive Central Scene Notification report and  Device Reset Locally Notification reports.\r\n\r\nLifeline report with End Point information\r\nAdd both Controller Node ID and Controller End Point to the list of End Points belonging to the Lifeline Group, in order to let the controller receive Central Scene Notification report with the End Point source address information. That may be achieved by sending the Multichannel Association Set Command Class and filling “Multi Channel Node ID” field with the Controller Node ID and “End Point” field with the Controller End Point."
+            }
+          },
+          "2": {
+            "hint": {
+              "en": "Reserved"
+            }
+          },
+          "3": {
+            "hint": {
+              "en": "Switch 1: Associations nodeid(s)"
             }
           }
         },
@@ -372,7 +401,8 @@
             "icon": "/drivers/vitrum_1_onoff_eu/assets/icon.svg",
             "name": {
               "en": "Switch 1"
-            }
+            },
+            "settings": []
           }
         }
       },
@@ -584,6 +614,10 @@
       },
       "class": "light",
       "capabilities": [],
+      "capabilitiesOptions": {
+        "uiComponent": null,
+        "getable": false
+      },
       "platforms": [
         "local"
       ],
@@ -644,6 +678,28 @@
           2,
           3
         ],
+        "associationGroupsOptions": {
+          "1": {
+            "hint": {
+              "en": "Lifeline report\r\nAdd Controller Node ID to the list of Node ID destinations belonging to the Lifeline Group, in order to let the controller receive Central Scene Notification report and  Device Reset Locally Notification reports.\r\n\r\nLifeline report with End Point information\r\nAdd both Controller Node ID and Controller End Point to the list of End Points belonging to the Lifeline Group, in order to let the controller receive Central Scene Notification report with the End Point source address information. That may be achieved by sending the Multichannel Association Set Command Class and filling “Multi Channel Node ID” field with the Controller Node ID and “End Point” field with the Controller End Point."
+            }
+          },
+          "2": {
+            "hint": {
+              "en": "Reserved"
+            }
+          },
+          "3": {
+            "hint": {
+              "en": "Switch 1: Associations nodeid(s)"
+            }
+          },
+          "4": {
+            "hint": {
+              "en": "Switch 2: Associations nodeid(s)"
+            }
+          }
+        },
         "multiChannelNodes": {
           "1": {
             "class": "socket",
@@ -653,7 +709,8 @@
             "icon": "/drivers/vitrum_1_onoff_eu/assets/icon.svg",
             "name": {
               "en": "Switch 1"
-            }
+            },
+            "settings": []
           },
           "2": {
             "class": "socket",
@@ -663,7 +720,8 @@
             "icon": "/drivers/vitrum_1_onoff_eu/assets/icon.svg",
             "name": {
               "en": "Switch 2"
-            }
+            },
+            "settings": []
           }
         }
       },
@@ -1037,6 +1095,10 @@
       },
       "class": "light",
       "capabilities": [],
+      "capabilitiesOptions": {
+        "uiComponent": null,
+        "getable": false
+      },
       "platforms": [
         "local"
       ],
@@ -1091,6 +1153,28 @@
           2,
           3
         ],
+        "associationGroupsOptions": {
+          "1": {
+            "hint": {
+              "en": "Lifeline report\r\nAdd Controller Node ID to the list of Node ID destinations belonging to the Lifeline Group, in order to let the controller receive Central Scene Notification report and  Device Reset Locally Notification reports.\r\n\r\nLifeline report with End Point information\r\nAdd both Controller Node ID and Controller End Point to the list of End Points belonging to the Lifeline Group, in order to let the controller receive Central Scene Notification report with the End Point source address information. That may be achieved by sending the Multichannel Association Set Command Class and filling “Multi Channel Node ID” field with the Controller Node ID and “End Point” field with the Controller End Point."
+            }
+          },
+          "2": {
+            "hint": {
+              "en": "Reserved"
+            }
+          },
+          "3": {
+            "hint": {
+              "en": "Switch 1: Associations nodeid(s)"
+            }
+          },
+          "4": {
+            "hint": {
+              "en": "Switch 2: Associations nodeid(s)"
+            }
+          }
+        },
         "multiChannelNodes": {
           "1": {
             "class": "socket",
@@ -1100,7 +1184,8 @@
             "icon": "/drivers/vitrum_1_onoff_eu/assets/icon.svg",
             "name": {
               "en": "Switch 1"
-            }
+            },
+            "settings": []
           },
           "2": {
             "class": "socket",
@@ -1110,7 +1195,8 @@
             "icon": "/drivers/vitrum_1_onoff_eu/assets/icon.svg",
             "name": {
               "en": "Switch 2"
-            }
+            },
+            "settings": []
           }
         }
       },
@@ -1273,6 +1359,10 @@
       },
       "class": "light",
       "capabilities": [],
+      "capabilitiesOptions": {
+        "uiComponent": null,
+        "getable": false
+      },
       "platforms": [
         "local"
       ],
@@ -1348,6 +1438,26 @@
             "hint": {
               "en": "Lifeline report\r\nAdd Controller Node ID to the list of Node ID destinations belonging to the Lifeline Group, in order to let the controller receive Central Scene Notification report and  Device Reset Locally Notification reports.\r\n\r\nLifeline report with End Point information\r\nAdd both Controller Node ID and Controller End Point to the list of End Points belonging to the Lifeline Group, in order to let the controller receive Central Scene Notification report with the End Point source address information. That may be achieved by sending the Multichannel Association Set Command Class and filling “Multi Channel Node ID” field with the Controller Node ID and “End Point” field with the Controller End Point."
             }
+          },
+          "2": {
+            "hint": {
+              "en": "Reserved"
+            }
+          },
+          "3": {
+            "hint": {
+              "en": "Switch 1: Associations nodeid(s)"
+            }
+          },
+          "4": {
+            "hint": {
+              "en": "Switch 2: Associations nodeid(s)"
+            }
+          },
+          "5": {
+            "hint": {
+              "en": "Switch 4: Associations nodeid(s)"
+            }
           }
         },
         "multiChannelNodes": {
@@ -1359,7 +1469,8 @@
             "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
             "name": {
               "en": "Switch 1"
-            }
+            },
+            "settings": []
           },
           "2": {
             "class": "socket",
@@ -1369,7 +1480,8 @@
             "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
             "name": {
               "en": "Switch 2"
-            }
+            },
+            "settings": []
           },
           "3": {
             "class": "socket",
@@ -1379,7 +1491,8 @@
             "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
             "name": {
               "en": "Switch 3"
-            }
+            },
+            "settings": []
           },
           "4": {
             "class": "socket",
@@ -1389,7 +1502,8 @@
             "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
             "name": {
               "en": "Switch 4"
-            }
+            },
+            "settings": []
           }
         }
       },
@@ -2049,6 +2163,10 @@
       },
       "class": "light",
       "capabilities": [],
+      "capabilitiesOptions": {
+        "uiComponent": null,
+        "getable": false
+      },
       "platforms": [
         "local"
       ],
@@ -2108,18 +2226,34 @@
         "associationGroups": [
           2
         ],
+        "associationGroupsOptions": {
+          "1": {
+            "hint": {
+              "en": "Lifeline report\r\nAdd Controller Node ID to the list of Node ID destinations belonging to the Lifeline Group, in order to let the controller receive Central Scene Notification report and  Device Reset Locally Notification reports.\r\n\r\nLifeline report with End Point information\r\nAdd both Controller Node ID and Controller End Point to the list of End Points belonging to the Lifeline Group, in order to let the controller receive Central Scene Notification report with the End Point source address information. That may be achieved by sending the Multichannel Association Set Command Class and filling “Multi Channel Node ID” field with the Controller Node ID and “End Point” field with the Controller End Point."
+            }
+          },
+          "2": {
+            "hint": {
+              "en": "Reserved"
+            }
+          },
+          "3": {
+            "hint": {
+              "en": "Switch 1: Associations nodeid(s)"
+            }
+          }
+        },
         "multiChannelNodes": {
           "1": {
             "class": "socket",
             "capabilities": [
-              "onoff",
-              "measure_power",
-              "meter_power"
+              "onoff"
             ],
             "icon": "/drivers/vitrum_1_onoff_eu/assets/icon.svg",
             "name": {
               "en": "Switch 1"
-            }
+            },
+            "settings": []
           }
         }
       },
@@ -2331,6 +2465,10 @@
       },
       "class": "light",
       "capabilities": [],
+      "capabilitiesOptions": {
+        "uiComponent": null,
+        "getable": false
+      },
       "platforms": [
         "local"
       ],
@@ -2401,30 +2539,50 @@
           2,
           3
         ],
+        "associationGroupsOptions": {
+          "1": {
+            "hint": {
+              "en": "Lifeline report\r\nAdd Controller Node ID to the list of Node ID destinations belonging to the Lifeline Group, in order to let the controller receive Central Scene Notification report and  Device Reset Locally Notification reports.\r\n\r\nLifeline report with End Point information\r\nAdd both Controller Node ID and Controller End Point to the list of End Points belonging to the Lifeline Group, in order to let the controller receive Central Scene Notification report with the End Point source address information. That may be achieved by sending the Multichannel Association Set Command Class and filling “Multi Channel Node ID” field with the Controller Node ID and “End Point” field with the Controller End Point."
+            }
+          },
+          "2": {
+            "hint": {
+              "en": "Reserved"
+            }
+          },
+          "3": {
+            "hint": {
+              "en": "Switch 1: Associations nodeid(s)"
+            }
+          },
+          "4": {
+            "hint": {
+              "en": "Switch 2: Associations nodeid(s)"
+            }
+          }
+        },
         "multiChannelNodes": {
           "1": {
             "class": "socket",
             "capabilities": [
-              "onoff",
-              "measure_power",
-              "meter_power"
+              "onoff"
             ],
             "icon": "/drivers/vitrum_1_onoff_eu/assets/icon.svg",
             "name": {
               "en": "Switch 1"
-            }
+            },
+            "settings": []
           },
           "2": {
             "class": "socket",
             "capabilities": [
-              "onoff",
-              "measure_power",
-              "meter_power"
+              "onoff"
             ],
             "icon": "/drivers/vitrum_1_onoff_eu/assets/icon.svg",
             "name": {
               "en": "Switch 2"
-            }
+            },
+            "settings": []
           }
         }
       },
@@ -2798,6 +2956,10 @@
       },
       "class": "light",
       "capabilities": [],
+      "capabilitiesOptions": {
+        "uiComponent": null,
+        "getable": false
+      },
       "platforms": [
         "local"
       ],
@@ -2875,42 +3037,66 @@
           3,
           4
         ],
+        "associationGroupsOptions": {
+          "1": {
+            "hint": {
+              "en": "Lifeline report\r\nAdd Controller Node ID to the list of Node ID destinations belonging to the Lifeline Group, in order to let the controller receive Central Scene Notification report and  Device Reset Locally Notification reports.\r\n\r\nLifeline report with End Point information\r\nAdd both Controller Node ID and Controller End Point to the list of End Points belonging to the Lifeline Group, in order to let the controller receive Central Scene Notification report with the End Point source address information. That may be achieved by sending the Multichannel Association Set Command Class and filling “Multi Channel Node ID” field with the Controller Node ID and “End Point” field with the Controller End Point."
+            }
+          },
+          "2": {
+            "hint": {
+              "en": "Reserved"
+            }
+          },
+          "3": {
+            "hint": {
+              "en": "Switch 1: Associations nodeid(s)"
+            }
+          },
+          "4": {
+            "hint": {
+              "en": "Switch 2: Associations nodeid(s)"
+            }
+          },
+          "5": {
+            "hint": {
+              "en": "Switch 3: Associations nodeid(s)"
+            }
+          }
+        },
         "multiChannelNodes": {
           "1": {
             "class": "socket",
             "capabilities": [
-              "onoff",
-              "measure_power",
-              "meter_power"
+              "onoff"
             ],
             "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
             "name": {
               "en": "Switch 1"
-            }
+            },
+            "settings": []
           },
           "2": {
             "class": "socket",
             "capabilities": [
-              "onoff",
-              "measure_power",
-              "meter_power"
+              "onoff"
             ],
             "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
             "name": {
               "en": "Switch 2"
-            }
+            },
+            "settings": []
           },
           "3": {
             "class": "socket",
             "capabilities": [
-              "onoff",
-              "measure_power",
-              "meter_power"
+              "onoff"
             ],
             "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
             "name": {
               "en": "Switch 3"
-            }
+            },
+            "settings": []
           }
         }
       },
@@ -3427,6 +3613,10 @@
       },
       "class": "light",
       "capabilities": [],
+      "capabilitiesOptions": {
+        "uiComponent": null,
+        "getable": false
+      },
       "platforms": [
         "local"
       ],
@@ -3506,6 +3696,31 @@
             "hint": {
               "en": "Lifeline report\r\nAdd Controller Node ID to the list of Node ID destinations belonging to the Lifeline Group, in order to let the controller receive Central Scene Notification report and  Device Reset Locally Notification reports.\r\n\r\nLifeline report with End Point information\r\nAdd both Controller Node ID and Controller End Point to the list of End Points belonging to the Lifeline Group, in order to let the controller receive Central Scene Notification report with the End Point source address information. That may be achieved by sending the Multichannel Association Set Command Class and filling “Multi Channel Node ID” field with the Controller Node ID and “End Point” field with the Controller End Point."
             }
+          },
+          "2": {
+            "hint": {
+              "en": "Reserved"
+            }
+          },
+          "3": {
+            "hint": {
+              "en": "Switch 1: Associations nodeid(s)"
+            }
+          },
+          "4": {
+            "hint": {
+              "en": "Switch 2: Associations nodeid(s)"
+            }
+          },
+          "5": {
+            "hint": {
+              "en": "Switch 3: Associations nodeid(s)"
+            }
+          },
+          "6": {
+            "hint": {
+              "en": "Switch 4: Associations nodeid(s)"
+            }
           }
         },
         "multiChannelNodes": {
@@ -3519,7 +3734,8 @@
             "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
             "name": {
               "en": "Switch 1"
-            }
+            },
+            "settings": []
           },
           "2": {
             "class": "socket",
@@ -3531,7 +3747,8 @@
             "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
             "name": {
               "en": "Switch 2"
-            }
+            },
+            "settings": []
           },
           "3": {
             "class": "socket",
@@ -3543,7 +3760,8 @@
             "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
             "name": {
               "en": "Switch 3"
-            }
+            },
+            "settings": []
           },
           "4": {
             "class": "socket",
@@ -3555,7 +3773,8 @@
             "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
             "name": {
               "en": "Switch 4"
-            }
+            },
+            "settings": []
           }
         }
       },
@@ -4215,6 +4434,10 @@
       },
       "class": "light",
       "capabilities": [],
+      "capabilitiesOptions": {
+        "uiComponent": null,
+        "getable": false
+      },
       "platforms": [
         "local"
       ],
@@ -4314,6 +4537,41 @@
             "hint": {
               "en": "Lifeline report\r\nAdd Controller Node ID to the list of Node ID destinations belonging to the Lifeline Group, in order to let the controller receive Central Scene Notification report and  Device Reset Locally Notification reports.\r\n\r\nLifeline report with End Point information\r\nAdd both Controller Node ID and Controller End Point to the list of End Points belonging to the Lifeline Group, in order to let the controller receive Central Scene Notification report with the End Point source address information. That may be achieved by sending the Multichannel Association Set Command Class and filling “Multi Channel Node ID” field with the Controller Node ID and “End Point” field with the Controller End Point."
             }
+          },
+          "2": {
+            "hint": {
+              "en": "Reserved"
+            }
+          },
+          "3": {
+            "hint": {
+              "en": "Switch 1: Associations nodeid(s)"
+            }
+          },
+          "4": {
+            "hint": {
+              "en": "Switch 2: Associations nodeid(s)"
+            }
+          },
+          "5": {
+            "hint": {
+              "en": "Switch 3: Associations nodeid(s)"
+            }
+          },
+          "6": {
+            "hint": {
+              "en": "Switch 4: Associations nodeid(s)"
+            }
+          },
+          "7": {
+            "hint": {
+              "en": "Switch 5: Associations nodeid(s)"
+            }
+          },
+          "8": {
+            "hint": {
+              "en": "Switch 6: Associations nodeid(s)"
+            }
           }
         },
         "multiChannelNodes": {
@@ -4327,7 +4585,8 @@
             "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
             "name": {
               "en": "Switch 1"
-            }
+            },
+            "settings": []
           },
           "2": {
             "class": "socket",
@@ -4339,7 +4598,8 @@
             "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
             "name": {
               "en": "Switch 2"
-            }
+            },
+            "settings": []
           },
           "3": {
             "class": "socket",
@@ -4351,7 +4611,8 @@
             "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
             "name": {
               "en": "Switch 3"
-            }
+            },
+            "settings": []
           },
           "4": {
             "class": "socket",
@@ -4363,7 +4624,8 @@
             "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
             "name": {
               "en": "Switch 4"
-            }
+            },
+            "settings": []
           },
           "5": {
             "class": "socket",
@@ -4375,7 +4637,8 @@
             "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
             "name": {
               "en": "Switch 5"
-            }
+            },
+            "settings": []
           },
           "6": {
             "class": "socket",
@@ -4387,7 +4650,8 @@
             "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
             "name": {
               "en": "Switch 6"
-            }
+            },
+            "settings": []
           }
         }
       },

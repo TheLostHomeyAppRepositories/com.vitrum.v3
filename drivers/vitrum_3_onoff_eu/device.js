@@ -9,8 +9,9 @@ class Vitrum3OnOffDevice extends ZwaveDevice {
    * onNodeInit is called when the device is initialized.
    */
   async onNodeInit() {
-    if (!this.hasCapability('onoff')){this.addCapability('onoff')};
+//    if (!this.hasCapability('onoff')){this.addCapability('onoff')};
     this.registerCapability('onoff', 'BASIC');
+    this.setCapabilityValue('onoff', false);
     this.registerReportListener('BASIC', 'BASIC_SET', ( rawReport, parsedReport ) => {
       if(rawReport.Value == 0)
         this.setCapabilityValue('onoff', false);
