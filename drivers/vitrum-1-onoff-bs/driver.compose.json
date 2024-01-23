@@ -19,10 +19,10 @@
     "zwaveAllianceProductId": 2100,
     "manufacturerId": 266,
     "productTypeId": [
-      8704
+      8704, 28949, 28678, 28950
     ],
     "productId": [
-      37120
+      37120, 4118, 3847, 4119
     ],
     "learnmode": {
       "instruction": { "en": "Press top button to include. Hold the left button for 8 seconds to exclude" }

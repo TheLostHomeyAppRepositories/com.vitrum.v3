@@ -51,10 +51,16 @@
         "zwaveAllianceProductId": 2100,
         "manufacturerId": 266,
         "productTypeId": [
-          8704
+          8704,
+          28949,
+          28678,
+          28950
         ],
         "productId": [
-          37120
+          37120,
+          4118,
+          3847,
+          4119
         ],
         "learnmode": {
           "instruction": {
@@ -592,10 +598,16 @@
       "zwave": {
         "manufacturerId": 266,
         "productTypeId": [
-          8704
+          8704,
+          28949,
+          28678,
+          28950
         ],
         "productId": [
-          37376
+          37376,
+          4118,
+          3847,
+          4119
         ],
         "learnmode": {
           "instruction": {
@@ -1273,12 +1285,17 @@
         "xlarge": "/drivers/vitrum-4-onoff-bs/assets/images/xlarge.png"
       },
       "zwave": {
-        "manufacturerId": 0,
+        "manufacturerId": 266,
         "productTypeId": [
-          8704
+          8704,
+          28949,
+          28678,
+          28950
         ],
         "productId": [
-          0
+          4118,
+          3847,
+          4119
         ],
         "defaultConfiguration": [
           {
@@ -2051,6 +2068,9 @@
           12800,
           16896,
           28787,
+          28949,
+          28678,
+          28950,
           8704,
           9216
         ],
@@ -2060,7 +2080,10 @@
           37376,
           3956,
           37120,
-          41216
+          41216,
+          4118,
+          3847,
+          4119
         ],
         "learnmode": {
           "instruction": {
@@ -2328,7 +2351,10 @@
           16896,
           28806,
           8704,
-          9216
+          9216,
+          28949,
+          28678,
+          28950
         ],
         "productId": [
           20992,
@@ -2336,7 +2362,10 @@
           37376,
           3975,
           37376,
-          41472
+          41472,
+          4118,
+          3847,
+          4119
         ],
         "learnmode": {
           "instruction": {
@@ -2787,13 +2816,19 @@
           4609,
           12800,
           16896,
-          28818
+          28818,
+          28949,
+          28678,
+          28950
         ],
         "productId": [
           21248,
           21249,
           37632,
-          3987
+          3987,
+          4118,
+          3847,
+          4119
         ],
         "learnmode": {
           "instruction": {
@@ -3406,11 +3441,20 @@
       "zwave": {
         "manufacturerId": 266,
         "productTypeId": [
-          0
+          28949,
+          28678,
+          28950
         ],
         "productId": [
-          0
+          4118,
+          3847,
+          4119
         ],
+        "learnmode": {
+          "instruction": {
+            "en": "Press top button to include. Hold the left button for 8 seconds to exclude"
+          }
+        },
         "defaultConfiguration": [
           {
             "id": 7,
