@@ -6,4 +6,4 @@ Supported devices:
 - BS Satellite  (I, II, IV)
 - BS On-Off  (I, II, IV)
 
-You can send me productTypeId and productId, if you want to add another devices.
+You can send me productTypeId and productId, if you want to add other devices.
