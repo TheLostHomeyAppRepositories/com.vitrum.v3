@@ -10,18 +10,17 @@ class Vitrum4OnOffBSDevice extends ZwaveDevice {
   async onNodeInit() {
     if (this.node.isMultiChannelNode) {
       await this.addCapability('onoff');
+      this.registerCapability('onoff', 'BASIC');
+      this.registerReportListener('BASIC', 'BASIC_SET', ( rawReport, parsedReport ) => {
+        if(rawReport.Value == 0)
+          this.setCapabilityValue('onoff', false);
+        else
+          this.setCapabilityValue('onoff', true);
+      });   
     }
     else {
       await this.removeCapability('onoff');
     }
-    
-    this.registerCapability('onoff', 'BASIC');
-    this.registerReportListener('BASIC', 'BASIC_SET', ( rawReport, parsedReport ) => {
-      if(rawReport.Value == 0)
-        this.setCapabilityValue('onoff', false);
-      else
-        this.setCapabilityValue('onoff', true);
-    });   
 
     this.log('Vitrum IV OnOff BS Device has been initialized');
   }

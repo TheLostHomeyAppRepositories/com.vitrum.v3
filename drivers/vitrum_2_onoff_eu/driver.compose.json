@@ -51,7 +51,8 @@
         "associationGroupsMultiChannel": [ 1 ],
         "associationGroups": [
           2,
-          3
+          3,
+          4
         ],
         "associationGroupsOptions": {
           "1": {

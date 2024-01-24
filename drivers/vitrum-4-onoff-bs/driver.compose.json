@@ -71,7 +71,11 @@
     ],
     "zwaveAllianceProductId": 2100,
     "associationGroups": [
-      1
+      1,
+      2,
+      3,
+      4,
+      5
     ],
     "associationGroupsOptions": {
       "1": {
