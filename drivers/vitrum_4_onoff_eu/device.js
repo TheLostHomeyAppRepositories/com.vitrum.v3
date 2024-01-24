@@ -30,9 +30,11 @@ class Vitrum4OnOffDevice extends ZwaveDevice {
    * onAdded is called when the user adds the device, called just after pairing.
    */
   async onAdded() {
-    this.log('Vitrum IV Device has been added');
+    if (this.hasCapability('onoff')) {
+      this.setCapabilityValue('onoff', false).catch(this.error);
+    }
+    this.log('Vitrum III has been added');
   }
-
 }
 
 module.exports = Vitrum4OnOffDevice;
