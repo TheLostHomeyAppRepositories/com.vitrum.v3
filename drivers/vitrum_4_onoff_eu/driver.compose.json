@@ -97,28 +97,28 @@
     "multiChannelNodes": {
       "1": {
         "class": "socket",
-        "capabilities": ["onoff", "measure_power", "meter_power"],
+        "capabilities": ["onoff"],
         "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
         "name": { "en": "Switch 1" },
         "settings": []
       },
       "2": {
         "class": "socket",
-        "capabilities": ["onoff", "measure_power", "meter_power"],
+        "capabilities": ["onoff"],
         "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
         "name": { "en": "Switch 2" },
         "settings": []
       },
       "3": {
         "class": "socket",
-        "capabilities": ["onoff", "measure_power", "meter_power"],
+        "capabilities": ["onoff"],
         "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
         "name": { "en": "Switch 3" },
         "settings": []
       },
       "4": {
         "class": "socket",
-        "capabilities": ["onoff", "measure_power", "meter_power"],
+        "capabilities": ["onoff"],
         "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
         "name": { "en": "Switch 4" },
         "settings": []
