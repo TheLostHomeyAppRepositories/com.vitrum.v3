@@ -52,5 +52,8 @@
   },
   "3.5.4": {
     "en": "Basic reimplementation of roller shutter"
+  },
+  "3.5.5": {
+    "en": "Revert back to basics Roller Shutter"
   }
 }
