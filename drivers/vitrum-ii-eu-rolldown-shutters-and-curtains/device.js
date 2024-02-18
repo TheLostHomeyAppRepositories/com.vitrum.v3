@@ -17,6 +17,8 @@ class Vitrum2EUShutterDevice extends ZwaveDevice {
       this.log('value', value);
       this.log('opts', opts);
 
+      let result;
+
       if (value === 'idle') {
         result = null;
       }
@@ -28,9 +30,11 @@ class Vitrum2EUShutterDevice extends ZwaveDevice {
       if (value === 'down') {
         result = 0;
       }
+      else
+        result = null;
 
       try {
-        await this.node.CommandClass.COMMAND_CLASS_SWITCH_MULTILEVEL.SWITCH_MULTILEVEL_SET({"type":"Buffer","data":[0],"Value":result})
+        await this.node.CommandClass.COMMAND_CLASS_BASIC.BASIC_SET({"Value":result});
         return Promise.resolve();
       } catch (err) {
         return Promise.reject(err);
