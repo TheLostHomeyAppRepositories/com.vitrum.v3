@@ -49,5 +49,8 @@
   },
   "3.5.3": {
     "en": "Removed 2nd node from RollerShutter"
+  },
+  "3.5.4": {
+    "en": "Basic reimplementation of roller shutter"
   }
 }
