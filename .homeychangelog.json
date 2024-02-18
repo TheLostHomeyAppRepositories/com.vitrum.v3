@@ -46,5 +46,8 @@
   },
   "3.5.2": {
     "en": "Various fixes on Roller Shutter switch"
+  },
+  "3.5.3": {
+    "en": "Removed 2nd node from RollerShutter"
   }
 }
