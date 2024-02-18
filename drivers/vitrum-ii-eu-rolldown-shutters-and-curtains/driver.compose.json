@@ -38,8 +38,7 @@
     "associationGroupsMultiChannel": [ 1 ],
     "associationGroups": [
       2,
-      3,
-      4
+      3
     ],
     "associationGroupsOptions": {
       "1": {
@@ -52,9 +51,6 @@
       },
       "3": {
         "hint": { "en": "Switch 1: Associations nodeid(s)" }
-      },
-      "4": {
-        "hint": { "en": "Switch 2: Associations nodeid(s)" }
       }
     },
     "multiChannelNodes": {
@@ -62,14 +58,7 @@
         "class": "socket",
         "capabilities": [ "onoff" ],
         "icon": "/drivers/vitrum_ii_eu_rolldown-shutters-and-curtains/assets/icon.svg",
-        "name": { "en": "Button UP" },
-        "settings": []
-      },
-      "2": {
-        "class": "socket",
-        "capabilities": [ "onoff" ],
-        "icon": "/drivers/vitrum_ii_eu_rolldown-shutters-and-curtains/assets/icon.svg",
-        "name": { "en": "Button Down" },
+        "name": { "en": "Button UP/DOWN" },
         "settings": []
       }
     }
