@@ -1,8 +1,9 @@
 'use strict';
 
 const { Device } = require('homey');
+const { ZwaveDevice } = require('homey-zwavedriver');
 
-class Vitrum2EUShutterDevice extends Device {
+class Vitrum2EUShutterDevice extends ZwaveDevice {
 
   /**
    * onInit is called when the device is initialized.
@@ -10,12 +11,32 @@ class Vitrum2EUShutterDevice extends Device {
   async onNodeInit() {
    
     this.log('Vitrum II EU Roller Shutter has been initialized');
-    // Register Z-Wave capabilities for controlling roller shutter
-    if (this.hasCapability('windowcoverings_set')) {
-      this.registerCapability('windowcoverings_set', 'SWITCH_MULTILEVEL');
-    } else if (this.hasCapability('dim')) {
-      this.registerCapability('dim', 'SWITCH_MULTILEVEL');
-    }
+
+    this.registerCapability('windowcoverings_state', 'SWITCH_BINARY');
+    this.registerCapabilityListener("windowcoverings_state", async (value, opts) => {
+      this.log('value', value);
+      this.log('opts', opts);
+
+      if (value === 'idle') {
+        result = null;
+      }
+  
+      if (value === 'up') {
+        result = 1;
+      }
+
+      if (value === 'down') {
+        result = 0;
+      }
+
+      try {
+        await this.node.CommandClass.COMMAND_CLASS_SWITCH_MULTILEVEL.SWITCH_MULTILEVEL_SET({"type":"Buffer","data":[0],"Value":result})
+        return Promise.resolve();
+      } catch (err) {
+        return Promise.reject(err);
+      }
+  
+    });
   }
 
   /**

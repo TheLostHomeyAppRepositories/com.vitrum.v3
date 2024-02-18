@@ -4,12 +4,8 @@
   },
   "class": "windowcoverings",
   "capabilities": [
-    "windowcoverings_set"
+    "windowcoverings_state"
   ],
-  "capabilitiesOptions": {
-    "uiComponent": null,
-    "getable": false
-  },
   "platforms": [
     "local"
   ],
