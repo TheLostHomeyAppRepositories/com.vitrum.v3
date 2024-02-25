@@ -637,13 +637,15 @@
           8704,
           28949,
           28678,
-          28950
+          28950,
+          28978
         ],
         "productId": [
           37376,
           4118,
           3847,
-          4119
+          4119,
+          3924
         ],
         "learnmode": {
           "instruction": {
@@ -2382,7 +2384,8 @@
       },
       "class": "windowcoverings",
       "capabilities": [
-        "windowcoverings_state"
+        "windowcoverings_state",
+        "dim"
       ],
       "platforms": [
         "local"
