@@ -22,10 +22,10 @@
   "zwave": {
     "manufacturerId": 266,
     "productTypeId": [
-      8704, 28949, 28678, 28950
+      8704, 28949, 28678, 28950, 28993
     ],
     "productId": [
-      4118, 3847, 4119
+      4118, 3847, 4119, 4162
     ],
     "defaultConfiguration": [
       {

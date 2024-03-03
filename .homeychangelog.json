@@ -67,5 +67,8 @@
   },
   "3.5.9": {
     "en": "Rewrote registerCapabilityListener for windows covering device"
+  },
+  "3.5.10": {
+    "en": "Added new id for Vitrum IV OnOff BS"
   }
 }
