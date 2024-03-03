@@ -70,5 +70,8 @@
   },
   "3.5.10": {
     "en": "Added new id for Vitrum IV OnOff BS"
+  },
+  "3.5.11": {
+    "en": "New IDs on Vitrum IV OnOff BS"
   }
 }
