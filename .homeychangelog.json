@@ -76,5 +76,8 @@
   },
   "3.5.12": {
     "en": "Added new ids for Vitrum III EU"
+  },
+  "3.5.13": {
+    "en": "Added Vitrum VI Triac IDs"
   }
 }
