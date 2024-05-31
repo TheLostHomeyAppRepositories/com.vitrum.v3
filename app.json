@@ -1,7 +1,7 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "com.vitrum.v3",
-  "version": "3.5.13",
+  "version": "3.5.14",
   "brandColor": "#FF0000",
   "compatibility": ">=5.0.0",
   "sdk": 3,
@@ -2939,18 +2939,20 @@
         "productTypeId": [
           4608,
           4609,
+          5120,
+          8704,
+          9216,
           12800,
           16896,
           28787,
           28949,
           28678,
-          28950,
-          8704,
-          9216
+          28950
         ],
         "productId": [
           20992,
           20993,
+          26112,
           37376,
           3956,
           37120,
