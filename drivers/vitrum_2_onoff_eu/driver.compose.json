@@ -21,8 +21,8 @@
   },
   "zwave": {
         "manufacturerId": 266,
-        "productTypeId": [ 4608, 4609, 12800, 16896, 28806, 8704, 9216, 28949, 28678, 28950 ],
-        "productId": [ 20992, 20993, 37376, 3975, 37376, 41472, 4118, 3847, 4119 ],
+        "productTypeId": [ 4608, 4609, 5120, 12800, 16896, 28806, 8704, 9216, 28949, 28678, 28950 ],
+        "productId": [ 20992, 20993, 25088, 37376, 3975, 37376, 41472, 4118, 3847, 4119 ],
         "learnmode": {
           "instruction": { "en": "Press top button to include. Hold the left button for 8 seconds to exclude" }
         },
