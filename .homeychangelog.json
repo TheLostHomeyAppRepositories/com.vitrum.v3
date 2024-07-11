@@ -88,5 +88,8 @@
   },
   "3.5.16": {
     "en": "Various IDs on all Devices"
+  },
+  "3.5.17": {
+    "en": "Fixed Vitrum6 pairing"
   }
 }
