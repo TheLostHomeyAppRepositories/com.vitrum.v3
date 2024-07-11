@@ -3,7 +3,6 @@
 const Homey = require('homey');
 const { ZwaveDevice } = require('homey-zwavedriver');
 
-
 class Vitrum6OnOffDevice extends ZwaveDevice {
   /**
    * onInit is called when the device is initialized.
@@ -38,4 +37,4 @@ class Vitrum6OnOffDevice extends ZwaveDevice {
 
 }
 
-module.exports = MyDevice;
+module.exports = Vitrum6OnOffDevice;
