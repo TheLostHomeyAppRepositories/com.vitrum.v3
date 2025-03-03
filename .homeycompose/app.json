@@ -26,9 +26,79 @@
     "name": "Oreste Dimaggio",
     "email": "oreste@dimaggio.it"
   },
+  "contributors": {
+    "developers": [
+      {
+        "name": "Alexandre Nakad",
+        "email": "aleconakad@gmail.com"
+      }
+    ]
+  },
   "source": "https://github.com/bypo/com.vitrum.v3",
   "homeyCommunityTopicId": 85296,
   "support": "https://community.homey.app/t/app-pro-vitrum-v3-app-for-vitrum-switches-sdk3/85296",
+  "flow": {
+    "triggers": [
+      {
+        "id": "vitrum6_triac_multilevel",
+        "title": {
+          "en": "Normal operation - button in switch multilevel mode"
+        },
+        "titleFormatted": {
+          "en": "Button [[value]]"
+        },
+        "hint": {
+          "en": "This flow card will only trigger if the button setting is in \"Switch Multilevel Mode\", triggers on all buttons that are in this mode"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=vitrum_6_onoff-triac_eu"
+          },
+          {
+            "name": "value",
+            "type": "dropdown",
+            "title": {
+              "en": "Turned .../Started dimming ..."
+            },
+            "values": [
+              {
+                "id": "on",
+                "label": {
+                  "en": "Turned on"
+                }
+              },
+              {
+                "id": "off",
+                "label": {
+                  "en": "Turned off"
+                }
+              },
+              {
+                "id": "up",
+                "label": {
+                  "en": "Started dimming up"
+                }
+              },
+              {
+                "id": "down",
+                "label": {
+                  "en": "Started dimming down"
+                }
+              },
+              {
+                "id": "stop",
+                "label": {
+                  "en": "Stopped dimming"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "drivers": [
     {
       "name": {

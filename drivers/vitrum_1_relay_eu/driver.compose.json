@@ -1,9 +1,9 @@
 {
   "name": {
-    "en": "Vitrum 3 On/Off EU"
+    "en": "Vitrum 1 Relay EU"
   },
   "class": "light",
-  "capabilities": [ ],
+  "capabilities": [],
   "capabilitiesOptions": {
     "uiComponent": null,
     "getable": false
@@ -21,11 +21,27 @@
   },
   "zwave": {
     "manufacturerId": 266,
-    "productTypeId": [ 4608, 4609, 12800, 16896, 28949, 28678, 28950, 28949 ],
-    "productId": [ 21248, 21249, 37632, 4118, 3847, 4119, 4118 ],
+    "productTypeId": [
+      28787
+    ],
+    "productId": [
+      3956
+    ],
     "learnmode": {
-      "instruction": { "en": "Press top button to include. Hold the left button for 8 seconds to exclude" }
+      "instruction": {
+        "en": "Set the device into Learn Mode by pressing and holding button No.1 for longer than 4 seconds. The device will enter into inclusion mode by blinking magenta LED button No.1. Upon successful completion, the device LEDs will blink green three times. Button must be in CC Switch mode, otherwise use the button on the side"
+      }
     },
+    "unlearnmode": {
+      "instruction": {
+        "en": "Press and hold button No.1 (button must be in CC Switch Mode) for around 6 seconds and after that press 3 times the same button shortly within 3 seconds. LED Button No.1 blinks red upon completing the device exclusion successfully. Button must be in CC Switch mode, otherwise use the button on the side"
+      }
+    },
+    "associationGroups": [
+      1,
+      2,
+      3
+    ],
     "defaultConfiguration": [
       {
         "id": 7,
@@ -33,37 +49,10 @@
         "value": 3
       },
       {
-        "id": 8,
-        "size": 1,
-        "value": 3
-      },
-      {
-        "id": 9,
-        "size": 1,
-        "value": 3
-      },
-      {
         "id": 13,
         "size": 1,
         "value": 4
-      },
-      {
-        "id": 14,
-        "size": 1,
-        "value": 4
-      },
-      {
-        "id": 15,
-        "size": 1,
-        "value": 4
       }
-    ],
-    "associationGroupsMultiChannel": [ 1 ],
-    "associationGroups": [
-      2,
-      3,
-      4,
-      5
     ],
     "associationGroupsOptions": {
       "1": {
@@ -72,38 +61,26 @@
         }
       },
       "2": {
-        "hint": { "en": "Reserved" }
+        "hint": {
+          "en": "Reserved"
+        }
       },
       "3": {
-        "hint": { "en": "Switch 1: Associations nodeid(s)" }
-      },
-      "4": {
-        "hint": { "en": "Switch 2: Associations nodeid(s)" }
-      },
-      "5": {
-        "hint": { "en": "Switch 3: Associations nodeid(s)" }
+        "hint": {
+          "en": "Switch 1: Associations nodeid(s)"
+        }
       }
     },
     "multiChannelNodes": {
       "1": {
         "class": "socket",
-        "capabilities": ["onoff"],
-        "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
-        "name": { "en": "Switch 1" },
-        "settings": []
-      },
-      "2": {
-        "class": "socket",
-        "capabilities": ["onoff"],
-        "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
-        "name": { "en": "Switch 2" },
-        "settings": []
-      },
-      "3": {
-        "class": "socket",
-        "capabilities": ["onoff"],
-        "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
-        "name": { "en": "Switch 3" },
+        "capabilities": [
+          "onoff"
+        ],
+        "icon": "/drivers/vitrum_1_relay_eu/assets/icon.svg",
+        "name": {
+          "en": "Switch 1"
+        },
         "settings": []
       }
     }
