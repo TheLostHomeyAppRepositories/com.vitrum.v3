@@ -1,6 +1,6 @@
 {
   "name": {
-    "en": "Vitrum 6 On/Off EU"
+    "en": "Vitrum 3 Relay EU"
   },
   "class": "light",
   "capabilities": [],
@@ -22,32 +22,27 @@
   "zwave": {
     "manufacturerId": 266,
     "productTypeId": [
-      5120,
-      28949,
-      28678,
-      28950
+      28818
     ],
     "productId": [
-      4118,
-      3847,
-      4119,
-      26112
+      3987
     ],
     "learnmode": {
       "instruction": {
-        "en": "Press top button to include. Hold the left button for 8 seconds to exclude"
+        "en": "Set the device into Learn Mode by pressing and holding button No.1 (on the left of the device) for longer than 4 seconds. The device will enter into inclusion mode by blinking magenta LED button No.1. Upon successful completion, the device LEDs will blink green three times. Button must be in CC Switch mode, otherwise use the button on the side"
       }
     },
-    "zwaveAllianceProductId": 3918,
+    "unlearnmode": {
+      "instruction": {
+        "en": "Press and hold button No.1 (on the left of the front panel device) for around 6 seconds and after that press 3 times the same button shortly within 3 seconds. LED Button No.1 blinks red upon completing the device exclusion successfully. Button must be in CC Switch mode, otherwise use the button on the side"
+      }
+    },
     "associationGroups": [
       1,
       2,
       3,
       4,
-      5,
-      6,
-      7,
-      8
+      5
     ],
     "defaultConfiguration": [
       {
@@ -66,21 +61,6 @@
         "value": 3
       },
       {
-        "id": 10,
-        "size": 1,
-        "value": 3
-      },
-      {
-        "id": 11,
-        "size": 1,
-        "value": 3
-      },
-      {
-        "id": 12,
-        "size": 1,
-        "value": 3
-      },
-      {
         "id": 13,
         "size": 1,
         "value": 4
@@ -92,21 +72,6 @@
       },
       {
         "id": 15,
-        "size": 1,
-        "value": 4
-      },
-      {
-        "id": 16,
-        "size": 1,
-        "value": 4
-      },
-      {
-        "id": 17,
-        "size": 1,
-        "value": 4
-      },
-      {
-        "id": 18,
         "size": 1,
         "value": 4
       }
@@ -136,21 +101,6 @@
         "hint": {
           "en": "Switch 3: Associations nodeid(s)"
         }
-      },
-      "6": {
-        "hint": {
-          "en": "Switch 4: Associations nodeid(s)"
-        }
-      },
-      "7": {
-        "hint": {
-          "en": "Switch 5: Associations nodeid(s)"
-        }
-      },
-      "8": {
-        "hint": {
-          "en": "Switch 6: Associations nodeid(s)"
-        }
       }
     },
     "multiChannelNodes": {
@@ -159,7 +109,7 @@
         "capabilities": [
           "onoff"
         ],
-        "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
+        "icon": "/drivers/vitrum_3_relay_eu/assets/icon.svg",
         "name": {
           "en": "Switch 1"
         },
@@ -170,7 +120,7 @@
         "capabilities": [
           "onoff"
         ],
-        "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
+        "icon": "/drivers/vitrum_3_relay_eu/assets/icon.svg",
         "name": {
           "en": "Switch 2"
         },
@@ -181,42 +131,9 @@
         "capabilities": [
           "onoff"
         ],
-        "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
+        "icon": "/drivers/vitrum_3_relay_eu/assets/icon.svg",
         "name": {
           "en": "Switch 3"
-        },
-        "settings": []
-      },
-      "4": {
-        "class": "socket",
-        "capabilities": [
-          "onoff"
-        ],
-        "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
-        "name": {
-          "en": "Switch 4"
-        },
-        "settings": []
-      },
-      "5": {
-        "class": "socket",
-        "capabilities": [
-          "onoff"
-        ],
-        "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
-        "name": {
-          "en": "Switch 5"
-        },
-        "settings": []
-      },
-      "6": {
-        "class": "socket",
-        "capabilities": [
-          "onoff"
-        ],
-        "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
-        "name": {
-          "en": "Switch 6"
         },
         "settings": []
       }
