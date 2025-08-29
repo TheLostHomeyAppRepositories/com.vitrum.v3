@@ -91,5 +91,14 @@
   },
   "3.5.17": {
     "en": "Fixed Vitrum6 pairing"
+  },
+  "3.6.0": {
+    "en": "Added Vitrum 4 Triac EU"
+  },
+  "4.0.0": {
+    "en": "Added Vitrum IV Triac EU"
+  },
+  "4.0.1": {
+    "en": "Added support for Vitrum IV Triac EU"
   }
 }
