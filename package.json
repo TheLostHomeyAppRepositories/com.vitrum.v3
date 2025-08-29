@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "homey-log": "^2.1.0",
-    "homey-zwavedriver": "^2.2.0",
+    "homey-zwavedriver": "^2.2.1",
     "sharp": "^0.32.6"
   }
 }
