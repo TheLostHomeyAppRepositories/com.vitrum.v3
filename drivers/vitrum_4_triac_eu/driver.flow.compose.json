@@ -23,12 +23,6 @@
 							}
 						},
 						{
-							"id": "2",
-							"label": {
-								"en": "Top middle"
-							}
-						},
-						{
 							"id": "3",
 							"label": {
 								"en": "Top right"
@@ -38,12 +32,6 @@
 							"id": "4",
 							"label": {
 								"en": "Bottom left"
-							}
-						},
-						{
-							"id": "5",
-							"label": {
-								"en": "Bottom middle"
 							}
 						},
 						{

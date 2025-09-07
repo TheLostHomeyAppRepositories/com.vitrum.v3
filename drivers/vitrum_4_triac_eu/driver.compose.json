@@ -196,28 +196,6 @@
           "en": "Switch 4"
         },
         "settings": []
-      },
-      "5": {
-        "class": "socket",
-        "capabilities": [
-          "onoff"
-        ],
-        "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
-        "name": {
-          "en": "Switch 5"
-        },
-        "settings": []
-      },
-      "6": {
-        "class": "socket",
-        "capabilities": [
-          "onoff"
-        ],
-        "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
-        "name": {
-          "en": "Switch 6"
-        },
-        "settings": []
       }
     }
   }
